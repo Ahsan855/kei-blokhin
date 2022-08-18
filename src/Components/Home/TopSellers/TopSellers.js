@@ -9,7 +9,7 @@ import seller4 from "../../../Assets/Images/Rectangle 26 (3).png";
 const TopSellers = () => {
   return (
     <div className="bg-[#1E2329] overflow-x-hidden">
-      <div className="lg:max-w-[1200px] lg:h-[360px] mx-auto">
+      <div className="lg:max-w-[1200px] overflow-hidden lg:h-[360px] mx-auto">
         <div className="flex justify-between pt-20 pb-20">
           <div>
             <img src={squire} alt="" />
