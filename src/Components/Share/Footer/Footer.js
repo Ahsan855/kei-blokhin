@@ -1,11 +1,11 @@
 import React from "react";
-import "../../../Styles/Footer.css";
-import peparIcon from "../../../img/Icon.svg";
-import logo from "../../../img/logo.png";
+
+import peparIcon from "../../../Assets/Icons/Icon.svg";
+import logo from "../../../Assets/Icons/F_logo.png";
 
 const Footer = () => {
   return (
-    <footer className="text-white footer bg-[#1C2025]  body-font">
+    <footer className="text-white footer overflow-x-hidden bg-[#1C2025]  body-font">
       <div className="max-w-[1200px] mx-auto">
         <div className="px-5 pt-[54px] flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className=" flex text-center">

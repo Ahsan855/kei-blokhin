@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import titleIcon from '../../../assets/images/icon/titleIcon.png'
+import React, { Fragment } from "react";
+import titleIcon from "../../../Assets/Icons/titleIcon.png";
 
 const PopularCollections = () => {
   return (
