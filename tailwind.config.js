@@ -3,9 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      "md": "360px" ,
-      
-      "lg": "768px",
+      md: "360px",
+
+      lg: "768px",
+    },
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],

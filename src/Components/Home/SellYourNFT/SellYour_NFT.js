@@ -5,12 +5,12 @@ const SellYourNFT = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto md:ml-[33px] md:mr-[88px]">
-          <h1 className="text-[#FFFFFF] w-[416px] font-normal ml-16 mr-32 lg:ml-0 lg:mr-0 md:ml-0 md:mr-0 leading-[48px] text-[24px] lg:text-[32px] " >
+        <div className="max-w-[1200px] lg:mx-auto md:ml-[33px] md:mr-[88px] pt-[74px] pb-[64px] font-poppins">
+          <h1 className="text-[#FFFFFF] w-[416px] font-semibold  ml-[16px] mr-32 lg:ml-0 lg:mr-0 md:ml-0 md:mr-0 leading-[48px] text-[24px] md:text-[32px]" >
             Create And Sell Your NFTs
           </h1>
 
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-16 lg:mx-0 md:mx-0 lg:mt-[56px] mt-[24px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[79px]  md:gap-y-[32px]">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[24px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[79px]  md:gap-y-[32px]">
             {SellYourNFTdata.map((data) => (
               <div className="" key={data.id}>
                 <div className="border-2 border-[#3E3E46] box-border rounded-full w-[80px] h-[80px] flex justify-center items-center">
