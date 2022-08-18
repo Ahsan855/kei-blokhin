@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return <div>
     
-    Testing Hero Section
+    Testing Hero section 
 
   </div>;
 };
