@@ -1,5 +1,3 @@
-
-import "./App.css";
 import TopSellers from "./Components/Home/TopSellers/TopSellers";
 import Footer from "./Components/Share/Footer/Footer";
 

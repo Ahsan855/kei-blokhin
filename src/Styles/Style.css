@@ -1,17 +1,15 @@
-body {
-  background-color: #1f2227;
-}
+/* -----------------------Header Section Style Here---------------------- */
 
 .header form {
   width: 270px;
   height: 48px;
   margin-left: 96px;
 }
-.header form.nosubmit {
+.header form.search-box {
   border: none;
   padding: 0;
 }
-.header input.nosubmit::placeholder {
+.header input.search-box::placeholder {
   color: #575757;
   padding: 0 12px;
   font-style: normal;
@@ -20,7 +18,7 @@ body {
   line-height: 22px;
 }
 
-.header input.nosubmit {
+.header input.search-box {
   width: 100%;
   border: 2px solid #32333d;
   border-radius: 300px;
@@ -38,9 +36,33 @@ body {
     height: 48px;
     margin-left: 66px;
   }
-  .header input.nosubmit {
+  .header input.search-box {
     border: none;
     background-position: right;
     background-color: transparent;
   }
+}
+@media only screen and (max-width: 360px) {
+  .header form {
+    width: 150px;
+    height: 48px;
+    margin-left: 0px;
+  }
+}
+
+/* -----------------------Hero Section Style Here---------------------- */
+.hero-bg {
+  background-image: url(../Assets//Images/hero_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1614px;
+  min-height: 622px;
+}
+/* -----------------------Footer Section Style Here---------------------- */
+.footer .subscribe-box:focus {
+  outline: none;
+}
+.footer .subscribe-box {
+  border: 2px solid #3e3e46;
 }

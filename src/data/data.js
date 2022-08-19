@@ -1,35 +1,34 @@
 // SellYourNFT Icon Import
-import icon1 from "../assets/images/icon/Icon1.png";
-import icon2 from "../assets/images/icon/Icon2.png";
-import icon3 from "../assets/images/icon/Icon3.png";
-import icon4 from "../assets/images/icon/Icon4.png";
+import icon1 from "../Assets/Icons/Icon1.png";
+import icon2 from "../Assets/Icons/Icon2.png";
+import icon3 from "../Assets/Icons/Icon3.png";
+import icon4 from "../Assets/Icons/Icon4.png";
 
 // PopularCollections Collection Import
-import collection1 from '../assets/images/popularCollection/andy-hermawan1.png'
-import collection2 from '../assets/images/popularCollection/andy-hermawan-2.png'
-import collection3 from '../assets/images/popularCollection/andy-hermawan-3.png'
-import collection4 from '../assets/images/popularCollection/andy-hermawan-4.png'
-import collection5 from '../assets/images/popularCollection/andy-hermawan-5.png'
-import collection6 from '../assets/images/popularCollection/andy-hermawan-6.png'
-import collection7 from '../assets/images/popularCollection/andy-hermawan-7.png'
-import collection8 from '../assets/images/popularCollection/andy-hermawan-8.png'
-import collection9 from '../assets/images/popularCollection/andy-hermawan-9.png'
-import collection10 from '../assets/images/popularCollection/andy-hermawan10.png'
-import collection11 from '../assets/images/popularCollection/andy-hermawan11.png'
-import collection12 from '../assets/images/popularCollection/andy-hermawan12.png'
-import collection13 from '../assets/images/popularCollection/andy-hermawan13.png'
-import collection14 from '../assets/images/popularCollection/andy-hermawan14.png'
-import collection15 from '../assets/images/popularCollection/andy-hermawan15.png'
-import collection16 from '../assets/images/popularCollection/andy-hermawan16.png'
-import collection17 from '../assets/images/popularCollection/andy-hermawan17.png'
-import collection18 from '../assets/images/popularCollection/andy-hermawan18.png'
-import collection19 from '../assets/images/popularCollection/andy-hermawan19.png'
-import collection20 from '../assets/images/popularCollection/andy-hermawan20.png'
-import collection21 from '../assets/images/popularCollection/andy-hermawan21.png'
-import collection22 from '../assets/images/popularCollection/andy-hermawan22.png'
-import collection23 from '../assets/images/popularCollection/andy-hermawan23.png'
-import collection24 from '../assets/images/popularCollection/andy-hermawan24.png'
-
+import collection1 from "../Assets/Images/popularCollection/andy-hermawan1.png";
+import collection2 from "../Assets/Images/popularCollection/andy-hermawan-2.png";
+import collection3 from "../Assets/Images/popularCollection/andy-hermawan-3.png";
+import collection4 from "../Assets/Images/popularCollection/andy-hermawan-4.png";
+import collection5 from "../Assets/Images/popularCollection/andy-hermawan-5.png";
+import collection6 from "../Assets/Images/popularCollection/andy-hermawan-6.png";
+import collection7 from "../Assets/Images/popularCollection/andy-hermawan-7.png";
+import collection8 from "../Assets/Images/popularCollection/andy-hermawan-8.png";
+import collection9 from "../Assets/Images/popularCollection/andy-hermawan-9.png";
+import collection10 from "../Assets/Images/popularCollection/andy-hermawan10.png";
+import collection11 from "../Assets/Images/popularCollection/andy-hermawan11.png";
+import collection12 from "../Assets/Images/popularCollection/andy-hermawan12.png";
+import collection13 from "../Assets/Images/popularCollection/andy-hermawan13.png";
+import collection14 from "../Assets/Images/popularCollection/andy-hermawan14.png";
+import collection15 from "../Assets/Images/popularCollection/andy-hermawan15.png";
+import collection16 from "../Assets/Images/popularCollection/andy-hermawan16.png";
+import collection17 from "../Assets/Images/popularCollection/andy-hermawan17.png";
+import collection18 from "../Assets/Images/popularCollection/andy-hermawan18.png";
+import collection19 from "../Assets/Images/popularCollection/andy-hermawan19.png";
+import collection20 from "../Assets/Images/popularCollection/andy-hermawan20.png";
+import collection21 from "../Assets/Images/popularCollection/andy-hermawan21.png";
+import collection22 from "../Assets/Images/popularCollection/andy-hermawan22.png";
+import collection23 from "../Assets/Images/popularCollection/andy-hermawan23.png";
+import collection24 from "../Assets/Images/popularCollection/andy-hermawan24.png";
 
 // SellYourNFT Data
 export const SellYourNFTdata = [
@@ -38,7 +37,7 @@ export const SellYourNFTdata = [
     icon: icon1,
     name: "Why Us",
     description:
-      "Our main utility token that allows you to buy and sell LANDS and ASSETS in The Sandbox metaverse.",
+      "Our main utility token that allows you to buy and sell LANDS and Assets in The Sandbox metaverse.",
   },
   {
     id: 2,

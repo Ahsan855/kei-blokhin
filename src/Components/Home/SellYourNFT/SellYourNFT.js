@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { SellYourNFTdata } from "../../../data/data";
-import titleIcon from '../../../assets/images/icon/titleIcon.png'
+import titleIcon from '../../../Assets/Icons/titleIcon.png'
 
 const SellYourNFT = () => {
   return (

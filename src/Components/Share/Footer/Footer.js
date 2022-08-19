@@ -1,11 +1,11 @@
 import React from "react";
-import "../../../Styles/Footer.css";
-import peparIcon from "../../../img/Icon.svg";
-import logo from "../../../img/logo.png";
+
+import peparIcon from "../../../Assets/Icons/Icon.svg";
+import logo from "../../../Assets/Icons/F_logo.png";
 
 const Footer = () => {
   return (
-    <footer className="text-white footer bg-[#1C2025]  body-font">
+    <footer className="text-white footer overflow-x-hidden bg-[#1C2025]  body-font">
       <div className="max-w-[1200px] mx-auto">
         <div className="px-5 pt-[54px] flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className=" flex text-center">
@@ -13,35 +13,35 @@ const Footer = () => {
               <h2 className="footer-title text-left font-normal mb-[22px]">
                 <img src={logo} alt="" />
               </h2>
-              <p className="text-left leading-[22px]">
+              <p className="text-left leading-[22px] font-poppins">
                 Discover Collections, get Equipment, or find <br /> assets to
                 build your own unique Experiences.
               </p>
             </div>
             <div>
-              <h3 className="title-font font-medium text-white text-left tracking-widest text-xl mb-3">
+              <h3 className="title-font font-poppins font-medium text-white text-left tracking-widest text-xl mb-3">
                 Company
               </h3>
               <nav className="list-none mb-10 text-left">
                 <li>
-                  <a href="!#" className="text-white text-sm">
+                  <a href="!#" className="text-white text-sm font-poppins">
                     Contact
                   </a>
                 </li>
                 <li className="my-4">
-                  <a href="!#" className="text-white text-sm">
+                  <a href="!#" className="text-white text-sm font-poppins">
                     Author
                   </a>
                 </li>
                 <li>
-                  <a href="!#" className="text-white text-sm">
+                  <a href="!#" className="text-white text-sm font-poppins">
                     Explore
                   </a>
                 </li>
               </nav>
             </div>
             <div className="ml-40">
-              <h3 className="text-xl text-left">Subscribe Us</h3>
+              <h3 className="text-xl text-left font-poppins">Subscribe Us</h3>
               <div className="relative mt-[33px] text-left">
                 <input
                   type="text"
@@ -63,17 +63,17 @@ const Footer = () => {
             <p className="text-[#BCBCBC] text-[16px] text-center sm:text-left">
               Copyright © 2022. Kei NFT project
               <a
-                href="https://twitter.com/knyttneve"
                 rel="noopener noreferrer"
-                className="text-white ml-1"
+                className="text-white ml-1 font-poppins"
                 target="_blank"
+                href="#!"
               ></a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a
                 href="#!"
                 type="button"
-                className="rounded-full border-2 border-[#3E3E46] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out h-[24px] w-[24px] m-1"
+                className="rounded-full font-poppins border-2 border-[#3E3E46] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out h-[24px] w-[24px] m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -94,7 +94,7 @@ const Footer = () => {
               <a
                 href="#!"
                 type="button"
-                className="rounded-full border-2 border-[#3E3E46] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out h-[24px] w-[24px] m-1"
+                className="rounded-full font-poppins border-2 border-[#3E3E46] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out h-[24px] w-[24px] m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -115,7 +115,7 @@ const Footer = () => {
               <a
                 href="#!"
                 type="button"
-                className="rounded-full border-2 border-[#3E3E46] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out h-[24px] w-[24px]  m-1"
+                className="rounded-full font-poppins border-2 border-[#3E3E46] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out h-[24px] w-[24px]  m-1"
               >
                 <svg
                   aria-hidden="true"

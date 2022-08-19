@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
-import titleIcon from '../../../assets/images/icon/titleIcon.png'
-import { PopularCollectionsData } from '../../../data/data';
-import checkMark from '../../../assets/images/icon/checkMarkIcon.png'
+import React, { Fragment } from "react";
+import titleIcon from "../../../Assets/Icons/titleIcon.png";
+import checkMark from '../../../Assets/Icons/checkMarkIcon.png'
+import { PopularCollectionsData } from "../../../data/data";
 
 
 const PopularCollections = () => {
@@ -24,10 +24,7 @@ const PopularCollections = () => {
           {/* Card Style */}
           <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[24px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[79px]  md:gap-y-[32px]  ">
             {PopularCollectionsData.map((data) => (
-              <div
-                className=""
-                key={data.id}
-              >
+              <div className="" key={data.id}>
                 <div className="">
                   <img
                     src={data.collection.map((img) => data.collection)}
