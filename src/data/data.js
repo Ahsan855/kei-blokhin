@@ -68,7 +68,7 @@ export const SellYourNFTdata = [
 export const PopularCollectionsData = [
   {
     id: 1,
-    collection1: [
+    collection: [
       collection1,
       collection2,
       collection3,
@@ -81,7 +81,7 @@ export const PopularCollectionsData = [
   },
   {
     id: 2,
-    collection1: [
+    collection: [
       collection7,
       collection8,
       collection9,
@@ -94,7 +94,7 @@ export const PopularCollectionsData = [
   },
   {
     id: 3,
-    collection1: [
+    collection: [
       collection13,
       collection14,
       collection15,
@@ -107,7 +107,7 @@ export const PopularCollectionsData = [
   },
   {
     id: 4,
-    collection1: [
+    collection: [
       collection19,
       collection20,
       collection21,
