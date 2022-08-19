@@ -30,6 +30,17 @@ import collection22 from "../Assets/Images/popularCollection/andy-hermawan22.png
 import collection23 from "../Assets/Images/popularCollection/andy-hermawan23.png";
 import collection24 from "../Assets/Images/popularCollection/andy-hermawan24.png";
 
+
+// TodayPick Image Import
+import todayPicksImage1 from '../Assets/Images/TodayPicks/TodayPicks1.png'
+import todayPicksImage2 from '../Assets/Images/TodayPicks/TodayPicks2.png'
+import todayPicksImage3 from '../Assets/Images/TodayPicks/TodayPicks3.png'
+import todayPicksImage4 from '../Assets/Images/TodayPicks/TodayPicks4.png'
+import todayPicksImage5 from '../Assets/Images/TodayPicks/TodayPicks5.png'
+import todayPicksImage6 from '../Assets/Images/TodayPicks/TodayPicks6.png'
+
+
+
 // SellYourNFT Data
 export const SellYourNFTdata = [
   {
@@ -116,5 +127,58 @@ export const PopularCollectionsData = [
     ],
     title: "3D Renders Graphic P...",
     name: "Aldi Sigun",
+  },
+];
+
+
+// TodayPick Data
+export const TodayPicksData = [
+  {
+    id: 1,
+    img: todayPicksImage1,
+    title: "Rocket #45456",
+    name: "Andy Hermawan",
+    like: 220,
+    price: 4.89,
+  },
+  {
+    id: 2,
+    img: todayPicksImage2,
+    title: "Snapchat #12678",
+    name: "Alexander Shatov",
+    like: 378,
+    price: 2.12,
+  },
+  {
+    id: 3,
+    img: todayPicksImage3,
+    title: "White world #09823",
+    name: "Milad Fakurian",
+    like: 122,
+    price: 4.89,
+  },
+  {
+    id: 4,
+    img: todayPicksImage4,
+    title: "Squid #25578",
+    name: "Aldi Sigun",
+    like: 190,
+    price: 4.89,
+  },
+  {
+    id: 5,
+    img: todayPicksImage5,
+    title: "Tesla #89231",
+    name: "Alexander Shatov",
+    like: 98,
+    price: 2.12,
+  },
+  {
+    id: 6,
+    img: todayPicksImage6,
+    title: "Monster #90578",
+    name: "Aldi Sigun",
+    like: 449,
+    price: 4.89,
   },
 ];
