@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <>
       <HeroSection />
-      <Sell_Your_NFT/>
-      <PopularCollections/>
+      <Sell_Your_NFT />
+      <PopularCollections />
     </>
   );
 };

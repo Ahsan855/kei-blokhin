@@ -16,10 +16,14 @@ const Header = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  className="w-[100px] h-[42px] lg:w-[96px] lg:h-[32px] "
+                  className="w-[76px] h-[31px] md:w-[100px] md:h-[42px] lg:w-[96px] lg:h-[32px] "
                 />
-                <form class="nosubmit">
-                  <input class="nosubmit " type="search" placeholder="Search" />
+                <form class="search-box">
+                  <input
+                    class="search-box"
+                    type="search"
+                    placeholder="Search"
+                  />
                 </form>
               </div>
 
