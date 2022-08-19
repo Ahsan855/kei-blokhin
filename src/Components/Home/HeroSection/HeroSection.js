@@ -2,6 +2,8 @@ import React from "react";
 
 import hero_img from "../../../Assets/Images/hero_img.png";
 
+
+
 const HeroSection = () => {
   return (
     <section className="bg-[black] h-auto pb-[39px] pt-[134px] w-full overflow-x-hidden ">
