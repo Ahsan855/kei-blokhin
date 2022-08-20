@@ -172,3 +172,46 @@
 .footer .subscribe-box {
   border: 2px solid #3e3e46;
 }
+
+/* -----------------------Live Auctions Section Style Here---------------------- */
+.liveAuctionsBorder {
+  border: 2px solid;
+  border-image: linear-gradient(#3ce1f7, #e83cf7);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  /* border-radius: 20px !important; */
+}
+
+/* -----------------------Live Auctions swiper Section Style Here---------------------- */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

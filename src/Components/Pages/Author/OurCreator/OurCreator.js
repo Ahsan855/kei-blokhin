@@ -7,7 +7,7 @@ const OurCreator = () => {
     <Fragment>
       <section className="bg-[#1E2329] w-full overflow-x-hidden">
         <div className="max-w-[1200px] lg:mx-auto md:mx-[32px] pt-[81px] pb-[80px] font-poppins">
-          
+
           <h1 className="text-[#FFFFFF] text-[24px] md:text-[32px] mb-[24px] font-semibold leading-[54px]">
             Our Creator
           </h1>
@@ -41,11 +41,10 @@ const OurCreator = () => {
                     </div>
                   </div>
                   <div className="ml-[16px] ">
-                    <h1 className=" text-[#FFFFFF]">
-                      {data.name}
-                    </h1>
+                    <h1 className=" text-[#FFFFFF]">{data.name}</h1>
                     <p className="text-[#BCBCBC] text-[15px]">
-                      <span className="text-[#FFFFFF]">{data.sold}</span> NFTs sold
+                      <span className="text-[#FFFFFF]">{data.sold}</span> NFTs
+                      sold
                     </p>
                   </div>
                 </div>
