@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 import titleIcon from "../../../Assets/Icons/titleIcon.png";
-import selector from '../../../Assets/Icons/selector.png'
-import { TodayPicksData } from '../../../data/data';
-import checkMark from '../../../Assets/Icons/checkMarkIcon.png'
-import heart from '../../../Assets/Icons/heartIcon.png'
+import selector from "../../../Assets/Icons/selector.png";
+import { TodayPicksData } from "../../../data/data";
+import checkMark from "../../../Assets/Icons/checkMarkIcon.png";
+import heart from "../../../Assets/Icons/heartIcon.png";
 
 const TodayPicks = () => {
   return (

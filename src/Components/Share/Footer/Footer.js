@@ -63,16 +63,10 @@ const Footer = () => {
         <hr className="border-[#4B4B4B] border-b-[1px]" />
         <div className="bg-[#1C2025]">
           <div className="pt-[20px] pb-[60px] flex flex-wrap flex-col sm:flex-row">
-            <p className="text-[#BCBCBC] text-[16px] text-center sm:text-left">
+            <p className="text-[#BCBCBC] text-[16px]  text-left">
               Copyright © 2022. Kei NFT project
-              <a
-                rel="noopener noreferrer"
-                className="text-white ml-1 font-poppins"
-                target="_blank"
-                href="#!"
-              ></a>
             </p>
-            <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+            <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-start">
               <a
                 href="#!"
                 type="button"

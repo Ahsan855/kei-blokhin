@@ -5,7 +5,7 @@ import PopularCollections from "./PopularCollections/PopularCollections";
 import SellYourNFT from "./SellYourNFT/SellYourNFT";
 import SwiperLiveAuctions from "./SwiperLiveAuctions/SwiperLiveAuctions";
 import TodayPicks from "./TodayPicks/TodayPicks";
-import TopSellers from './TopSellers/TopSellers'
+import TopSellers from "./TopSellers/TopSellers";
 
 const Home = () => {
   return (
@@ -13,13 +13,16 @@ const Home = () => {
       <HeroSection />
       <SellYourNFT />
       <PopularCollections />
-      <TodayPicks/>
-      <LiveAuctions/>
-      <SwiperLiveAuctions/>
-      <TopSellers/>
+
+      <TodayPicks />
+      <TopSellers />
+
+      <TodayPicks />
+      <LiveAuctions />
+      <SwiperLiveAuctions />
+      <TopSellers />
     </>
   );
 };
 
 export default Home;
-

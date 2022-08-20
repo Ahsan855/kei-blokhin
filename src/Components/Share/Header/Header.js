@@ -61,7 +61,7 @@ const Header = () => {
                       <li>
                         <Link
                           to="contact"
-                          className="transition-all duration-300   cursor-pointer font-medium text-xl text-[#FFFFFF] font-poppins "
+                          className="transition-all duration-300  cursor-pointer font-medium text-xl text-[#FFFFFF] font-poppins "
                         >
                           Contact
                         </Link>
