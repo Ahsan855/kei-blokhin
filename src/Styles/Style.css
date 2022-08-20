@@ -161,3 +161,12 @@
           mask-composite: exclude; 
 }
 */
+
+/* -----------------------Live Auctions Section Style Here---------------------- */
+.liveAuctionsBorder {
+  border: 2px solid;
+  border-image: linear-gradient(#3CE1F7, #E83CF7);
+  border-image-slice: 1;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
