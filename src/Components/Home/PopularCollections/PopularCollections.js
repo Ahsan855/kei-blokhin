@@ -1,14 +1,13 @@
 import React, { Fragment } from "react";
 import titleIcon from "../../../Assets/Icons/titleIcon.png";
-import checkMark from '../../../Assets/Icons/checkMarkIcon.png'
+import checkMark from "../../../Assets/Icons/checkMarkIcon.png";
 import { PopularCollectionsData } from "../../../data/data";
-
 
 const PopularCollections = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto md:mx-[32px] pt-[81px] pb-[80px] font-poppins">
+        <div className="max-w-[1200px] mb-[40px] relative lg:mx-auto md:mx-[32px] pt-[81px] pb-[80px] font-poppins">
           <div className="flex justify-between">
             <div>
               <img src={titleIcon} alt="icon" />
@@ -16,7 +15,7 @@ const PopularCollections = () => {
                 Popular Collections
               </h1>
             </div>
-            <button className="py-[12px] px-[32px] text-white rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
+            <button className="py-[12px] px-[32px] popular-collection-btn text-white rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
               Explore More
             </button>
           </div>
@@ -30,11 +29,7 @@ const PopularCollections = () => {
               >
                 <div className="grid grid-cols-3">
                   {data.collection.map((img) => (
-                    <img
-                      className="w-[96px] h-[96px]"
-                      src={img}
-                      alt="icon"
-                    />
+                    <img className="w-[96px] h-[96px]" src={img} alt="icon" />
                   ))}
                 </div>
 

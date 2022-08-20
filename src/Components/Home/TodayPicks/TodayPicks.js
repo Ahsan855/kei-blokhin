@@ -1,15 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 import titleIcon from "../../../Assets/Icons/titleIcon.png";
-import selector from '../../../Assets/Icons/selector.png'
-import { TodayPicksData } from '../../../data/data';
-import checkMark from '../../../Assets/Icons/checkMarkIcon.png'
-import heart from '../../../Assets/Icons/heartIcon.png'
+import selector from "../../../Assets/Icons/selector.png";
+import { TodayPicksData } from "../../../data/data";
+import checkMark from "../../../Assets/Icons/checkMarkIcon.png";
+import heart from "../../../Assets/Icons/heartIcon.png";
 
 const TodayPicks = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[50px] md-pt-[90px] pb-[48px] md-pb-[72px] font-poppins">
+        <div className="max-w-[1200px] mt-[32px] lg:mx-auto mx-[16px] md:mx-[32px] font-poppins">
           {/* Title Style */}
           <div>
             <img src={titleIcon} alt="icon" />
@@ -98,8 +98,8 @@ const TodayPicks = () => {
             ))}
           </div>
 
-          <div className=" text-center mt-[64px] mb-[72px]  ">
-            <button className="py-[12px] px-[122px] md:px-[48px] text-[#FFFFFF] rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] md:text-[24px] font-semibold leading-[24px]">
+          <div className=" text-center mb-[40px] mt-[32px] lg:mt-[64px] lg:mb-[72px]">
+            <button className="py-[12px] px-[32px] today-piks-btn text-white rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
               Load More
             </button>
           </div>
