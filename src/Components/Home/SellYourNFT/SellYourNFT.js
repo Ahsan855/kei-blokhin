@@ -32,6 +32,8 @@ const SellYourNFT = () => {
               </div>
             ))}
           </div>
+
+          
         </div>
       </section>
     </Fragment>

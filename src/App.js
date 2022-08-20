@@ -1,4 +1,3 @@
-import TopSellers from "./Components/Home/TopSellers/TopSellers";
 import Footer from "./Components/Share/Footer/Footer";
 
 import Header from "./Components/Share/Header/Header";
@@ -10,7 +9,6 @@ function App() {
     <>
       <Header />
       <MyRoutes />
-      <TopSellers />
       <Footer />
     </>
   );
