@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 import titleIcon from "../../../Assets/Icons/titleIcon.png";
-import selector from '../../../Assets/Icons/selector.png'
-import { TodayPicksData } from '../../../data/data';
-import checkMark from '../../../Assets/Icons/checkMarkIcon.png'
-import heart from '../../../Assets/Icons/heartIcon.png'
+import selector from "../../../Assets/Icons/selector.png";
+import { TodayPicksData } from "../../../data/data";
+import checkMark from "../../../Assets/Icons/checkMarkIcon.png";
+import heart from "../../../Assets/Icons/heartIcon.png";
 
 const TodayPicks = () => {
   return (
@@ -20,18 +20,18 @@ const TodayPicks = () => {
 
           {/* Selector Button */}
           <div className="flex justify-between my-[24px] lg:my-[40px] md:my-[32px]      ">
-            <div className="flex-none md:flex">
+            <div className="  md:flex-row flex-col flex">
               <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center ">
                 All categories
                 <img className="ml-[12px]" src={selector} alt="selector" />
               </button>
-              <button className=" md:py-[12px] px-[32px] ml-[16px] text-[#FFFFFF] text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] flex items-center justify-center">
+              <button className=" md:py-[12px] px-[2px] md:ml-[16px] text-[#FFFFFF] text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] flex items-center justify-center">
                 All items
                 <img className="ml-[12px]" src={selector} alt="selector" />
               </button>
             </div>
 
-            <button className="py-[12px] px-[32px] text-[#FFFFFF] rounded-[300px] box-border border-2 border-[#3E3E46] text-[16px] font-semibold leading-[24px] flex items-center justify-center">
+            <button className="md:py-[12px] md:px-[32px] text-[#FFFFFF] rounded-[300px] box-border border-2 border-[#3E3E46] text-[16px] font-semibold leading-[24px] flex items-center justify-center">
               Sort by
               <img className="ml-[12px]" src={selector} alt="selector" />
             </button>
@@ -89,7 +89,7 @@ const TodayPicks = () => {
                       </h5>
                     </div>
 
-                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 py-[8px] px-[24px] text-[#FFFFFF] leading-[27px]">
+                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 h-[42px] md:h-auto md:py-[8px] px-[24px] text-[#FFFFFF] leading-[27px]">
                       Place Bid
                     </button>
                   </div>

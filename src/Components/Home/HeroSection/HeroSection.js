@@ -4,11 +4,11 @@ import hero_img from "../../../Assets/Images/hero_img.png";
 
 const HeroSection = () => {
   return (
-    <section className=" hero bg-[#0e0d0d] h-auto pb-[39px] pt-[38px] w-full overflow-x-hidden ">
+    <section className=" hero bg-[#0e0d0d] h-auto pb-[39px] pt-[16px] md:pt-[30px] lg:pt-[10px] w-full overflow-x-hidden ">
       <div className=" mx-auto flex justify-center items-center  hero-bg">
         <div className="grid  md:ml-[16px] md:grid-cols-2 justify-between md:gap-x-[20px] lg:gap-x-[200px]">
-          <div className="  md:ml-0 lg:ml-[170px] font-poppins md:pt-10">
-            <h2 className="font-semibold text-[#FFFFFF] text-[32px] md:text-[40px] w-[] lg:text-[48px]">
+          <div className="  md:ml-0 lg:ml-[170px] font-poppins md:pt-[40px] lg:pt-10">
+            <h2 className="font-semibold text-[#FFFFFF] text-[32px] md:text-[40px]  lg:text-[48px]">
               Welcome to the{" "}
             </h2>
             <h2 className="font-semibold text-[#FFFFFF] text-[32px] md:text-[40px] lg:text-[48px]">
@@ -21,7 +21,7 @@ const HeroSection = () => {
               Discover Collections, get Equipment, or find assets to build your
               own unique Experiences.
             </p>
-            <div className="mt-[36px] md:pt-[60px] flex">
+            <div className="mt-[36px] md:pt-0 lg::pt-[60px] flex">
               <button
                 style={{ lineHeight: "36px" }}
                 className="bg-[#3C84F7] text-[16px] md:text-[24px]  text-[#ffffff] font-semibold font-poppins py-[6px] px-[40px] md:py-[12px] md:px-[48px] rounded-[300px]"

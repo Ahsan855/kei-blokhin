@@ -30,30 +30,25 @@ import collection22 from "../Assets/Images/popularCollection/andy-hermawan22.png
 import collection23 from "../Assets/Images/popularCollection/andy-hermawan23.png";
 import collection24 from "../Assets/Images/popularCollection/andy-hermawan24.png";
 
-
 // TodayPick Image Import
-import todayPicksImage1 from '../Assets/Images/TodayPicks/TodayPicks1.png'
-import todayPicksImage2 from '../Assets/Images/TodayPicks/TodayPicks2.png'
-import todayPicksImage3 from '../Assets/Images/TodayPicks/TodayPicks3.png'
-import todayPicksImage4 from '../Assets/Images/TodayPicks/TodayPicks4.png'
-import todayPicksImage5 from '../Assets/Images/TodayPicks/TodayPicks5.png'
-import todayPicksImage6 from '../Assets/Images/TodayPicks/TodayPicks6.png'
+import todayPicksImage1 from "../Assets/Images/TodayPicks/TodayPicks1.png";
+import todayPicksImage2 from "../Assets/Images/TodayPicks/TodayPicks2.png";
+import todayPicksImage3 from "../Assets/Images/TodayPicks/TodayPicks3.png";
+import todayPicksImage4 from "../Assets/Images/TodayPicks/TodayPicks4.png";
+import todayPicksImage5 from "../Assets/Images/TodayPicks/TodayPicks5.png";
+import todayPicksImage6 from "../Assets/Images/TodayPicks/TodayPicks6.png";
 
+// Our Creator User Image Import
+import user1 from "../Assets/Images/Users/user1.png";
+import user2 from "../Assets/Images/Users/user2.png";
+import user3 from "../Assets/Images/Users/user3.png";
+import user4 from "../Assets/Images/Users/user4.png";
 
-// Our Creator User Image Import 
-import user1 from '../Assets/Images/Users/user1.png'
-import user2 from '../Assets/Images/Users/user2.png'
-import user3 from '../Assets/Images/Users/user3.png'
-import user4 from '../Assets/Images/Users/user4.png'
-
-
-// Top Seller Image Import 
-import seller1 from '../Assets/Images/TopSellers/seller1.png'
-import seller2 from '../Assets/Images/TopSellers/seller2.png'
-import seller3 from '../Assets/Images/TopSellers/seller3.png'
-import seller4 from '../Assets/Images/TopSellers/seller4.png'
-
-
+// Top Seller Image Import
+import seller1 from "../Assets/Images/TopSellers/seller1.png";
+import seller2 from "../Assets/Images/TopSellers/seller2.png";
+import seller3 from "../Assets/Images/TopSellers/seller3.png";
+import seller4 from "../Assets/Images/TopSellers/seller4.png";
 
 // SellYourNFT Data
 export const SellYourNFTdata = [
@@ -85,7 +80,7 @@ export const SellYourNFTdata = [
     description:
       "Access to exclusive content as well as granting the possibility to monetize your own part ",
   },
-]
+];
 
 // PopularCollections Data
 
@@ -93,25 +88,61 @@ export const PopularCollectionsData = [
   {
     id: 1,
     collection: [
-      collection1,
-      collection2,
-      collection3,
-      collection4,
-      collection5,
-      collection6,
+      {
+        img: collection1,
+        id: 1,
+      },
+      {
+        img: collection2,
+        id: 2,
+      },
+      {
+        img: collection3,
+        id: 3,
+      },
+      {
+        img: collection4,
+        id: 4,
+      },
+      {
+        img: collection5,
+        id: 5,
+      },
+      {
+        img: collection6,
+        id: 6,
+      },
     ],
-    title: 157,
+    title: "3D Renders Graphic P...",
     name: "Andy Hermawan",
   },
   {
     id: 2,
     collection: [
-      collection7,
-      collection8,
-      collection9,
-      collection10,
-      collection11,
-      collection12,
+      {
+        img: collection7,
+        id: 1,
+      },
+      {
+        img: collection8,
+        id: 8,
+      },
+      {
+        img: collection9,
+        id: 3,
+      },
+      {
+        img: collection10,
+        id: 4,
+      },
+      {
+        img: collection11,
+        id: 11,
+      },
+      {
+        img: collection12,
+        id: 6,
+      },
     ],
     title: "Social Collection",
     name: "Alexander Shatov",
@@ -119,12 +150,30 @@ export const PopularCollectionsData = [
   {
     id: 3,
     collection: [
-      collection13,
-      collection14,
-      collection15,
-      collection16,
-      collection17,
-      collection18,
+      {
+        img: collection13,
+        id: 1,
+      },
+      {
+        img: collection14,
+        id: 14,
+      },
+      {
+        img: collection15,
+        id: 3,
+      },
+      {
+        img: collection16,
+        id: 4,
+      },
+      {
+        img: collection17,
+        id: 17,
+      },
+      {
+        img: collection18,
+        id: 6,
+      },
     ],
     title: "Abstract world",
     name: "Milad Fakurian",
@@ -132,18 +181,35 @@ export const PopularCollectionsData = [
   {
     id: 4,
     collection: [
-      collection19,
-      collection20,
-      collection21,
-      collection22,
-      collection23,
-      collection24,
+      {
+        img: collection19,
+        id: 1,
+      },
+      {
+        img: collection20,
+        id: 20,
+      },
+      {
+        img: collection21,
+        id: 3,
+      },
+      {
+        img: collection22,
+        id: 22,
+      },
+      {
+        img: collection23,
+        id: 4,
+      },
+      {
+        img: collection24,
+        id: 6,
+      },
     ],
     title: "3D Renders Graphic P...",
     name: "Aldi Sigun",
   },
 ];
-
 
 // TodayPick Data
 export const TodayPicksData = [
@@ -166,7 +232,7 @@ export const TodayPicksData = [
   {
     id: 3,
     img: todayPicksImage3,
-    title: "White world #09823",
+    title: "White #09823",
     name: "Milad Fakurian",
     like: 122,
     price: 4.89,
@@ -264,7 +330,7 @@ export const TopSellersData = [
     seller: seller1,
     name: "Andy Hermawan",
     sold: 345,
-  },   
+  },
   {
     id: 2,
     seller: seller2,
