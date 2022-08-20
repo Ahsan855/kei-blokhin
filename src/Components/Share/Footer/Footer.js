@@ -6,11 +6,11 @@ import logo from "../../../Assets/Icons/F_logo.png";
 const Footer = () => {
   return (
     <footer className="text-white footer overflow-x-hidden bg-[#1C2025]  body-font">
-      <div className="max-w-[1200px] mx-auto">
-        <div className="px-5 pt-[54px] flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className=" flex text-center">
+      <div className="lg:max-w-[1200px] md:max-w-[704px]  max-w-[328px] mx-auto">
+        <div className="lg:px-5 pt-[54px] flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className=" flex lg:flex-row flex-col text-center">
             <div className="md:mr-56 sm:mr-20">
-              <h2 className="footer-title text-left font-normal mb-[22px]">
+              <h2 className=" text-left font-normal mb-[22px]">
                 <img src={logo} alt="" />
               </h2>
               <p className="text-left leading-[22px] font-poppins">
@@ -18,41 +18,44 @@ const Footer = () => {
                 build your own unique Experiences.
               </p>
             </div>
-            <div>
-              <h3 className="title-font font-poppins font-medium text-white text-left tracking-widest text-xl mb-3">
-                Company
-              </h3>
-              <nav className="list-none mb-10 text-left">
-                <li>
-                  <a href="!#" className="text-white text-sm font-poppins">
-                    Contact
-                  </a>
-                </li>
-                <li className="my-4">
-                  <a href="!#" className="text-white text-sm font-poppins">
-                    Author
-                  </a>
-                </li>
-                <li>
-                  <a href="!#" className="text-white text-sm font-poppins">
-                    Explore
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="ml-40">
-              <h3 className="text-xl text-left font-poppins">Subscribe Us</h3>
-              <div className="relative mt-[33px] text-left">
-                <input
-                  type="text"
-                  placeholder="test@mail.com"
-                  className="input subscribe-box pt-[9px] pb-[11px] bg-[#1C2025] w-[282px] h-[44px] rounded-full pl-[26px]"
-                />
-                <img
-                  src={peparIcon}
-                  alt=""
-                  className="btn btn-primary absolute w-[24px] h-[24px] top-[10px] right-[10px] rounded-l-none"
-                ></img>
+            <div className="flex md:flex-row flex-col mt-[32px] lg:mt-0">
+              {" "}
+              <div>
+                <h3 className=" font-poppins font-medium text-white text-left tracking-widest text-xl mb-3">
+                  Company
+                </h3>
+                <nav className="list-none mb-10 text-left">
+                  <li>
+                    <a href="!#" className="text-white text-sm font-poppins">
+                      Contact
+                    </a>
+                  </li>
+                  <li className="my-4">
+                    <a href="!#" className="text-white text-sm font-poppins">
+                      Author
+                    </a>
+                  </li>
+                  <li>
+                    <a href="!#" className="text-white text-sm font-poppins">
+                      Explore
+                    </a>
+                  </li>
+                </nav>
+              </div>
+              <div className="md:ml-40 pb-[24px]">
+                <h3 className="text-xl text-left font-poppins">Subscribe Us</h3>
+                <div className="relative mt-[33px] text-left">
+                  <input
+                    type="text"
+                    placeholder="test@mail.com"
+                    className="input subscribe-box pt-[9px] pb-[11px] bg-[#1C2025] w-[282px] h-[44px] rounded-full pl-[26px]"
+                  />
+                  <img
+                    src={peparIcon}
+                    alt=""
+                    className="btn btn-primary absolute w-[24px] h-[24px] top-[10px] right-[60px] md:right-[10px] rounded-l-none"
+                  ></img>
+                </div>
               </div>
             </div>
           </div>
