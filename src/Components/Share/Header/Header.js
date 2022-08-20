@@ -18,9 +18,9 @@ const Header = () => {
                   alt="logo"
                   className=" my-[24px] mr-[42px] md:mr-0 w-[56px] h-[22px] md:w-[96px] md:h-[41px] "
                 />
-                <form class="search-box">
+                <form className="search-box">
                   <input
-                    class="search-box"
+                    className="search-box"
                     type="search"
                     placeholder="Search"
                   />
@@ -38,7 +38,7 @@ const Header = () => {
                 <label
                   onClick={() => setOpen(!open)}
                   htmlFor="hamburger"
-                  className="peer-checked:hamburger block absolute left-0 z-30 p-6 cursor-pointer lg:hidden"
+                  className="peer-checked:hamburger block absolute left-0 z-30 md:p-6 cursor-pointer lg:hidden"
                 >
                   {open ? (
                     <img

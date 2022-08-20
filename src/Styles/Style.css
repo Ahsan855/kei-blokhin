@@ -100,7 +100,7 @@
   filter: blur(550px);
 }
 .hero-bg {
-  background-image: url(../Assets//Images/hero_bg.png);
+  background-image: url(../Assets/Images/hero_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,10 +110,25 @@
 
 @media only screen and (max-width: 768px) {
   .hero-bg {
-    content: "";
     background-image: url(../Assets/Images/bg.png);
-    max-width: 782px;
     min-height: 394px;
+    opacity: 100;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero-bg {
+    background-image: none;
+  }
+  .bg-img {
+    background-image: url(../Assets/Images/bg\(1\).png);
+    padding-top: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 290px;
+    opacity: 100;
+    min-height: 340px;
   }
 }
 
