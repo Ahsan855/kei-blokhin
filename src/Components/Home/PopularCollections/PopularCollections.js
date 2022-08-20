@@ -8,11 +8,12 @@ const PopularCollections = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto md:mx-[32px] pt-[81px] pb-[80px] font-poppins">
+        <div className="max-w-[1200px] mx-[16px] md:mx-[32px] lg:mx-auto py-[48px] pt-[0] md:pt-[72px] pb-0 md:pb-[80 px] font-poppins">
+          {/* Title Style */}
           <div className="flex justify-between">
             <div>
               <img src={titleIcon} alt="icon" />
-              <h1 className="text-[#FFFFFF] text-[24px] md:text-[32px] font-semibold leading-[48px]">
+              <h1 className="text-[#FFFFFF] text-[24px] md:text-[32px] font-semibold">
                 Popular Collections
               </h1>
             </div>
@@ -22,24 +23,20 @@ const PopularCollections = () => {
           </div>
 
           {/*Single Card Style */}
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[24px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[79px]  md:gap-y-[32px]  ">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 mt-[24px] lg:mt-[65px] md:mt-[40px] gap-[16px] md:gap-[24px] ">
             {PopularCollectionsData.map((data) => (
               <div
                 className=" popularCollectionCard p-[16px] rounded-[15px] "
                 key={data.id}
               >
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-3 ">
                   {data.collection.map((img) => (
-                    <img
-                      className="w-[96px] h-[96px]"
-                      src={img}
-                      alt="icon"
-                    />
+                    <img className="w-[96px] h-[96px]" src={img} alt="icon" />
                   ))}
                 </div>
 
-                <div className="">
-                  <h4 className="mt-[18px] mb-[8px] text-[#FFFFFF] text-[20px] leading-[30px] font-semibold">
+                <div>
+                  <h4 className="mt-[16px] mb-[8px] text-[#FFFFFF] text-[20px] leading-[30px] font-semibold">
                     {data.title}
                   </h4>
                   <div className="flex items-center">

@@ -88,7 +88,6 @@ export const SellYourNFTdata = [
 ]
 
 // PopularCollections Data
-
 export const PopularCollectionsData = [
   {
     id: 1,
@@ -143,7 +142,6 @@ export const PopularCollectionsData = [
     name: "Aldi Sigun",
   },
 ];
-
 
 // TodayPick Data
 export const TodayPicksData = [
@@ -284,3 +282,35 @@ export const TopSellersData = [
     sold: 157,
   },
 ];
+
+// Live Auctions
+export const LiveAuctionsData = [
+  {
+    id: 1,
+    img: todayPicksImage1,
+    title: "Cup #45456",
+    name: "Andy Hermawan",
+    like: 146,
+  },
+  {
+    id: 2,
+    img: todayPicksImage2,
+    title: "Instagram #98531",
+    name: "Alexander Shatov",
+    like: 220,
+  },
+  {
+    id: 3,
+    img: todayPicksImage3,
+    title: "Fantasy #47821",
+    name: "Milad Fakurian",
+    like: 220,
+  },
+  {
+    id: 4,
+    img: todayPicksImage4,
+    title: "Rocket #45456",
+    name: "Andy Hermawan",
+    like: 220,
+  },
+]; 
