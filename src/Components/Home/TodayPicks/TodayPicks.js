@@ -89,7 +89,7 @@ const TodayPicks = () => {
                       </h5>
                     </div>
 
-                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 px-[8] py-[24px] text-[#FFFFFF] leading-[27px]">
+                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 py-[8px] px-[24px] text-[#FFFFFF] leading-[27px]">
                       Place Bid
                     </button>
                   </div>

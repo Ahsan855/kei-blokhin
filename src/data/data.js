@@ -40,6 +40,20 @@ import todayPicksImage5 from '../Assets/Images/TodayPicks/TodayPicks5.png'
 import todayPicksImage6 from '../Assets/Images/TodayPicks/TodayPicks6.png'
 
 
+// Our Creator User Image Import 
+import user1 from '../Assets/Images/Users/user1.png'
+import user2 from '../Assets/Images/Users/user2.png'
+import user3 from '../Assets/Images/Users/user3.png'
+import user4 from '../Assets/Images/Users/user4.png'
+
+
+// Top Seller Image Import 
+import seller1 from '../Assets/Images/TopSellers/seller1.png'
+import seller2 from '../Assets/Images/TopSellers/seller2.png'
+import seller3 from '../Assets/Images/TopSellers/seller3.png'
+import seller4 from '../Assets/Images/TopSellers/seller4.png'
+
+
 
 // SellYourNFT Data
 export const SellYourNFTdata = [
@@ -71,7 +85,7 @@ export const SellYourNFTdata = [
     description:
       "Access to exclusive content as well as granting the possibility to monetize your own part ",
   },
-];
+]
 
 // PopularCollections Data
 
@@ -86,7 +100,7 @@ export const PopularCollectionsData = [
       collection5,
       collection6,
     ],
-    title: "3D Renders Graphic P...",
+    title: 157,
     name: "Andy Hermawan",
   },
   {
@@ -180,5 +194,93 @@ export const TodayPicksData = [
     name: "Aldi Sigun",
     like: 449,
     price: 4.89,
+  },
+];
+
+// Our Creator Data
+export const OurCreatorData = [
+  {
+    id: 1,
+    user: user1,
+    name: "Andy Hermawan",
+    sold: 345,
+    collection: [
+      collection1,
+      collection2,
+      collection3,
+      collection4,
+      collection5,
+      collection6,
+    ],
+  },
+  {
+    id: 2,
+    user: user2,
+    name: "Alexander Shat...",
+    sold: 202,
+    collection: [
+      collection1,
+      collection2,
+      collection3,
+      collection4,
+      collection5,
+      collection6,
+    ],
+  },
+  {
+    id: 3,
+    user: user3,
+    name: "Aldi Sigun",
+    sold: 157,
+    collection: [
+      collection1,
+      collection2,
+      collection3,
+      collection4,
+      collection5,
+      collection6,
+    ],
+  },
+  {
+    id: 4,
+    user: user4,
+    name: "Milad Fakurian",
+    sold: 157,
+    collection: [
+      collection1,
+      collection2,
+      collection3,
+      collection4,
+      collection5,
+      collection6,
+    ],
+  },
+];
+
+// Top Seller Data
+export const TopSellersData = [
+  {
+    id: 1,
+    seller: seller1,
+    name: "Andy Hermawan",
+    sold: 345,
+  },   
+  {
+    id: 2,
+    seller: seller2,
+    name: "Alexander Shat...",
+    sold: 202,
+  },
+  {
+    id: 3,
+    seller: seller3,
+    name: "Aldi Sigun",
+    sold: 157,
+  },
+  {
+    id: 4,
+    seller: seller4,
+    name: "Milad Fakurian",
+    sold: 157,
   },
 ];

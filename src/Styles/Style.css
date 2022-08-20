@@ -73,4 +73,18 @@
   border-image: linear-gradient(rgba(76, 73, 189, 1) , rgba(64, 107, 63, 1));
   border-image-slice: 1;
   box-sizing: border-box;
+  border-radius: 15px;
 }
+/* .popularCollectionCard::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  background: linear-gradient(rgba(76, 73, 189, 1) , rgba(64, 107, 63, 1));
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}
+*/

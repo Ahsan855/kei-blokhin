@@ -56,7 +56,7 @@ const Header = () => {
                     <ul className="px-6 pt-32 text-gray-700 space-y-8   md:px-6 lg:space-y-0 lg:flex xl:space-x-12 lg:pt-0 lg:gap-2">
                       <li>
                         <Link
-                          to="home"
+                          to="contact"
                           className="transition-all duration-300  cursor-pointer font-medium text-xl text-[#FFFFFF] font-poppins "
                         >
                           Contact
@@ -64,7 +64,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="services"
+                          to="author"
                           className=" transition-all duration-300 cursor-pointer font-medium text-xl text-[#FFFFFF] font-poppins"
                         >
                           Author
@@ -72,7 +72,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="Portfolio"
+                          to="explore"
                           className="transition-all duration-300 cursor-pointer font-medium text-xl text-[#FFFFFF] font-poppins"
                         >
                           Explore

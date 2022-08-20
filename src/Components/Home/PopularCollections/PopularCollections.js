@@ -25,12 +25,16 @@ const PopularCollections = () => {
           <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[24px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[79px]  md:gap-y-[32px]  ">
             {PopularCollectionsData.map((data) => (
               <div
-                className=" popularCollectionCard p-[16px] rounded-[15px]"
+                className=" popularCollectionCard p-[16px] rounded-[15px] "
                 key={data.id}
               >
-                <div className="grid grid-cols-3 rounded-[15px]">
+                <div className="grid grid-cols-3">
                   {data.collection.map((img) => (
-                    <img className="w-[96px] h-[96px]" src={img} alt="icon" />
+                    <img
+                      className="w-[96px] h-[96px]"
+                      src={img}
+                      alt="icon"
+                    />
                   ))}
                 </div>
 
