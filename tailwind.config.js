@@ -11,6 +11,9 @@ module.exports = {
 
         lg: "769px",
       },
+      backgroundImage: {
+        "bgImage": "url('/src/Assets/Images/bgImage.png')",
+      },
     },
   },
   plugins: [],

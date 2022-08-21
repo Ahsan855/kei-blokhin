@@ -8,10 +8,10 @@ import heart from "../../../Assets/Icons/heartIcon.png";
 const TodayPicks = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] mt-[32px] lg:mx-auto mx-[16px] md:mx-[32px] font-poppins">
+      <section className="today-picks w-full overflow-x-hidden">
+        <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[50px] md-pt-[90px] pb-[48px] md-pb-[72px] font-poppins">
           {/* Title Style */}
-          <div>
+          <div className=" md:mt-[40] lg:mt-[80px] ">
             <img src={titleIcon} alt="icon" />
             <h1 className="text-[#FFFFFF] font-semibold  leading-[48px]  text-[24px] md:text-[32px]">
               Today's Picks
@@ -19,22 +19,28 @@ const TodayPicks = () => {
           </div>
 
           {/* Selector Button */}
-          <div className="flex justify-between my-[24px] lg:my-[40px] md:my-[32px]      ">
-            <div className="flex-none md:flex">
-              <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center ">
-                All categories
-                <img className="ml-[12px]" src={selector} alt="selector" />
-              </button>
-              <button className=" md:py-[12px] px-[32px] ml-[16px] text-[#FFFFFF] text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] flex items-center justify-center">
-                All items
+          <div className="flex justify-between mx-[16px] md:mx-[0] my-[24px] lg:my-[40px] md:my-[32px] ">
+            <div className="flex-none md:flex gap-x-0 md:gap-x-[16px] ">
+              <div>
+                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center ">
+                  All categories
+                  <img className="ml-[12px]" src={selector} alt="selector" />
+                </button>
+              </div>
+              <div className="mt-[16px] md:mt-[0] mb-[24px] md:mb-[0]">
+                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+                  All items
+                  <img className="ml-[12px]" src={selector} alt="selector" />
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <button className=" mt-[55px] md:mt-0 text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+                Sort by
                 <img className="ml-[12px]" src={selector} alt="selector" />
               </button>
             </div>
-
-            <button className="py-[12px] px-[32px] text-[#FFFFFF] rounded-[300px] box-border border-2 border-[#3E3E46] text-[16px] font-semibold leading-[24px] flex items-center justify-center">
-              Sort by
-              <img className="ml-[12px]" src={selector} alt="selector" />
-            </button>
           </div>
 
           {/* TodayPicks Card Style */}
@@ -89,7 +95,7 @@ const TodayPicks = () => {
                       </h5>
                     </div>
 
-                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 py-[8px] px-[24px] text-[#FFFFFF] leading-[27px]">
+                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 mt-[14px] py-[8px] px-[24px] text-[#FFFFFF] leading-[21px] text-[14px]">
                       Place Bid
                     </button>
                   </div>

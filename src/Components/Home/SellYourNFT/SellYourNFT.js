@@ -1,15 +1,15 @@
 import React, { Fragment } from "react";
 import { SellYourNFTdata } from "../../../data/data";
-import titleIcon from '../../../Assets/Icons/titleIcon.png'
+import titleIcon from "../../../Assets/Icons/titleIcon.png";
 
 const SellYourNFT = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] w-full overflow-x-hidden">
+      <section className=" Sell-Your-NFT  w-full overflow-x-hidden">
         <div className="max-w-[1200px] lg:mx-auto md:ml-[33px] md:mr-[88px] pt-[74px] pb-[64px] font-poppins">
-          <div>
+          <div className="ml-[16px]">
             <img src={titleIcon} alt="icon" />
-            <h1 className="text-[#FFFFFF] w-[416px] font-semibold  ml-[16px] mr-32 lg:ml-0 lg:mr-0 md:ml-0 md:mr-0 leading-[48px] text-[24px] md:text-[32px]">
+            <h1 className="text-[#FFFFFF] w-[416px] font-semibold  mr-32 lg:ml-0 lg:mr-0 md:ml-0 md:mr-0 leading-[48px] text-[24px] md:text-[32px]">
               Create And Sell Your NFTs
             </h1>
           </div>
@@ -32,8 +32,6 @@ const SellYourNFT = () => {
               </div>
             ))}
           </div>
-
-          
         </div>
       </section>
     </Fragment>
