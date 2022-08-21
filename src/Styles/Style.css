@@ -1,3 +1,70 @@
+/* -----------------------Common Style Here---------------------- */
+.Sell-Your-NFT {
+  position: relative;
+  background: hsl(213, 15%, 14%);
+  min-height: 441px;
+  padding: 20px 0;
+}
+.Sell-Your-NFT::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 441px;
+  left: 0px;
+  top: 0px;
+  background: #3c84f7;
+  filter: blur(750px);
+}
+.Sell-Your-NFT::before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 441px;
+  right: 0px;
+  top: 0px;
+  background: #d83429;
+  filter: blur(500px);
+}
+.Popular-Collections {
+  position: relative;
+  height: 587px;
+}
+.Popular-Collections:after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 587px;
+  left: 0px;
+  top: 0px;
+  background: #011027;
+  filter: blur(750px);
+}
+.Popular-Collections::before {
+  content: "";
+  position: absolute;
+  width: 15%;
+  height: 587px;
+  right: 0px;
+  top: 0px;
+  background: #d83429;
+  filter: blur(550px);
+}
+.today-picks {
+  position: relative;
+  background: #1e2329;
+}
+
+.today-picks::before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1074px;
+  right: 0px;
+  top: 300px;
+  background: rgba(49, 214, 184, 1);
+  filter: blur(500px);
+}
+
 /* -----------------------Header Section Style Here---------------------- */
 .header:after {
   content: "";
@@ -79,13 +146,18 @@
 }
 
 /* -----------------------Hero Section Style Here---------------------- */
+.hero {
+  position: relative;
+  height: 740px;
+}
+
 .hero::after {
   content: "";
   position: absolute;
   width: 70%;
   height: 740px;
   left: 0px;
-  top: 154px;
+  top: 0px;
   filter: blur(750px);
   background: #3c84f7;
 }
@@ -95,7 +167,7 @@
   width: 30%;
   height: 740px;
   right: 0px;
-  top: 154px;
+  top: 0px;
   background: #f6d62e;
   filter: blur(550px);
 }
@@ -135,7 +207,6 @@
 
 /* -----------------------Popular Collection Section Style Here---------------------- */
 .popularCollection-box {
-  background-image: linear-gradient(rgb(250, 250, 250), rgba(139, 131, 53, 1));
   box-sizing: border-box;
   border-radius: 15px;
   padding: 2px;
@@ -174,14 +245,14 @@
 }
 
 /* -----------------------Live Auctions Section Style Here---------------------- */
-.liveAuctionsBorder {
-  border: 2px solid;
-  border-image: linear-gradient(#3ce1f7, #e83cf7);
-  border-image-slice: 1;
+.today-picks-box {
+  border-radius: 15px;
+  background-image: linear-gradient(#3ce1f7, #e83cf7);
   box-sizing: border-box;
-  /* border-radius: 20px !important; */
 }
-
+.today-picks-card {
+  background-color: rgba(30, 35, 41, 1);
+}
 /* -----------------------Live Auctions swiper Section Style Here---------------------- */
 
 .swiper {

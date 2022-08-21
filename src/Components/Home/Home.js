@@ -13,13 +13,9 @@ const Home = () => {
       <HeroSection />
       <SellYourNFT />
       <PopularCollections />
-
-      <TodayPicks />
-      <TopSellers />
-
       <TodayPicks />
       <LiveAuctions />
-      <SwiperLiveAuctions />
+      {/* <SwiperLiveAuctions /> */}
       <TopSellers />
     </>
   );
