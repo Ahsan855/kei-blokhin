@@ -21,7 +21,7 @@ const LiveAuctions = () => {
           {/* TodayPicks Card Style */}
           <div className=" today-picks-box p-[2px] mx-[16px] lg:mx-0 md:mx-0  mt-[48px]">
             <div className="md:block hidden">
-              <div className="grid lg:grid-cols-4  rounded-[15px] today-picks-card md:grid-cols-2 p-[22px]  gap-x-[32px]   ">
+              <div className="grid lg:grid-cols-4  rounded-[15px] today-picks-card md:grid-cols-2 p-[24px]  gap-[24px]   ">
                 {LiveAuctionsData.map((data) => (
                   <div className="" key={data.id}>
                     <div className="flex items-center">
