@@ -4,7 +4,7 @@ import hero_img from "../../../Assets/Images/hero_img.png";
 
 const HeroSection = () => {
   return (
-    <section className=" hero relative bg-[#0e0d0d] h-auto pb-[39px] pt-[16px] md:pt-[30px] lg:pt-[10px] w-full overflow-x-hidden ">
+    <section className=" hero font-poppins relative bg-[#0e0d0d] h-auto pb-[39px] pt-[16px] md:pt-[30px] lg:pt-[10px] w-full overflow-x-hidden ">
       <div className=" mx-auto ml[16px] md:ml-0 flex md:justify-center md:items-center  hero-bg">
         <div className="grid  md:ml-[16px] md:grid-cols-2 justify-between md:gap-x-[20px] lg:gap-x-[200px]">
           <div className=" ml-[16px] md:ml-0 lg:ml-[170px] font-poppins md:pt-[40px] lg:pt-10">

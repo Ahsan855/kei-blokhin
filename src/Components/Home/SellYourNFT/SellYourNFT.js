@@ -5,7 +5,7 @@ import titleIcon from "../../../Assets/Icons/titleIcon.png";
 const SellYourNFT = () => {
   return (
     <Fragment>
-      <section className=" Sell-Your-NFT  w-full overflow-x-hidden">
+      <section className=" Sell-Your-NFT font-poppins  w-full overflow-x-hidden">
         <div className="max-w-[1200px] lg:mx-auto md:ml-[33px] md:mr-[88px] pt-[74px] pb-[64px] font-poppins">
           <div className="ml-[16px]">
             <img src={titleIcon} alt="icon" />

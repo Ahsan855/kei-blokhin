@@ -6,7 +6,7 @@ import { PopularCollectionsData } from "../../../data/data";
 const PopularCollections = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] Popular-Collections w-full overflow-x-hidden">
+      <section className="bg-[#1E2329] Popular-Collections font-poppins w-full overflow-x-hidden">
         <div className="max-w-[1200px] h-[435px] mx-[16px] md:mx-[32px] lg:mx-auto py-[48px] pt-[0] md:pt-[72px] pb-0 md:pb-[80 px] font-poppins">
           {/* Title Style */}
 

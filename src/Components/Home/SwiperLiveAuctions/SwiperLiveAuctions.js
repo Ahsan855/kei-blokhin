@@ -18,7 +18,7 @@ import heart from "../../../Assets/Icons/heartIcon.png";
 const SwiperLiveAuctions = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] w-full overflow-x-hidden">
+      <section className="bg-[#1E2329] w-full overflow-x-hidden font-poppins">
         <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] py-[80px] font-poppins">
           <Swiper
             slidesPerView={1}

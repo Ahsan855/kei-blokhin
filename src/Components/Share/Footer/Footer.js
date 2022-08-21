@@ -5,7 +5,7 @@ import logo from "../../../Assets/Icons/F_logo.png";
 
 const Footer = () => {
   return (
-    <footer className="text-white footer overflow-x-hidden bg-[#1C2025]  body-font">
+    <footer className="text-white font-poppins footer overflow-x-hidden bg-[#1C2025]  body-font">
       <div className="lg:max-w-[1200px] md:max-w-[704px]  max-w-[328px] mx-auto">
         <div className="lg:px-5 pt-[54px] flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className=" flex lg:flex-row flex-col text-center">
