@@ -1,25 +1,24 @@
-import React, { Fragment } from 'react';
-import { OurCreatorData } from '../../../../data/data';
-import checkMark from '../../../../Assets/Icons/checkMarkIcon.png'
+import React, { Fragment } from "react";
+import { OurCreatorData } from "../../../../data/data";
+import checkMark from "../../../../Assets/Icons/checkMarkIcon.png";
 
 const OurCreator = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto md:mx-[32px] pt-[81px] pb-[80px] font-poppins">
-
-          <h1 className="text-[#FFFFFF] text-[24px] md:text-[32px] mb-[24px] font-semibold leading-[54px]">
+      <section className="bg-[#1E2329] relative w-full overflow-x-hidden">
+        <div className="max-w-[1200px] lg:mx-auto md:mx-[32px] lg:pt-[83px] pb-[80px] font-poppins">
+          <h1 className="text-[#FFFFFF] pl-[16px] md:pl-0 text-[24px] md:text-[32px] mb-[14px] md:mb-[24px] font-semibold leading-[54px]">
             Our Creator
           </h1>
 
           <div className="flex justify-between">
-            <div>
-              <p className="text-[#FFFFFF] text-[20px] font-normal leading-[30px]">
-                Our main utility token that allows you to buy and sell <br />{" "}
-                LANDS and ASSETS in The Sandbox metaverse.
+            <div className="pl-[16px] md:pl-0 w-[284px] md:w-[506px]">
+              <p className="text-[#FFFFFF] text-[15px] md:text-[20px] font-normal leading-[30px]">
+                Our main utility token that allows you to buy and sell LANDS and
+                ASSETS in The Sandbox metaverse.
               </p>
             </div>
-            <button className="py-[12px] px-[32px] text-[#FFFFFF] rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
+            <button className="py-[12px] px-[32px] author-btn text-white rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
               Explore More
             </button>
           </div>

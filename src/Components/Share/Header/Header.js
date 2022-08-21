@@ -13,11 +13,13 @@ const Header = () => {
           <div className="px-0 lg:container lg:mx-auto lg:px-6 lg:py-4">
             <div className="flex  relative z-20 items-center justify-end lg:justify-center  ">
               <div className="relative z-20 flex items-center ">
-                <img
-                  src={logo}
-                  alt="logo"
-                  className=" my-[24px] mr-[42px] md:mr-0 w-[56px] h-[22px] md:w-[96px] md:h-[41px] "
-                />
+                <Link to="/">
+                  <img
+                    src={logo}
+                    alt="logo"
+                    className=" my-[24px] mr-[42px] md:mr-0 w-[56px] h-[22px] md:w-[96px] md:h-[41px] "
+                  />
+                </Link>
                 <form className="search-box">
                   <input
                     className="search-box"

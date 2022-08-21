@@ -1,44 +1,53 @@
-import React, { Fragment } from 'react';
-import titleIcon from '../../../Assets/Icons/titleIcon.png'
-import { ExploreData } from '../../../data/data';
-import checkMark from '../../../Assets/Icons/checkMarkIcon.png';
-import heart from '../../../Assets/Icons/heartIcon.png';
-import selector from '../../../Assets/Icons/selector.png';
+import React, { Fragment } from "react";
+import titleIcon from "../../../Assets/Icons/titleIcon.png";
+import { ExploreData } from "../../../data/data";
+import checkMark from "../../../Assets/Icons/checkMarkIcon.png";
+import heart from "../../../Assets/Icons/heartIcon.png";
+import selector from "../../../Assets/Icons/selector.png";
+import contactBread from "../../../Assets/Images/_breadcrumbs.png";
 
 const Explore = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        {/* Hero Section Style */}
-        <div className="bg-bgImage w-[1920px] h-[280px]  bg-no-repeat bg-center bg-cover">
-          <div className="max-w-[1200px] mx-auto">
+      <section className="bg-[#1E2329] overflow-x-hidden">
+        <div className="bg-bgImage bg-no-repeat bg-center bg-cover">
+          <div className="lg:w-[1200px] mx-auto md:pt-[78px] pt-4 pb-4 pl-4 md:pl-[32px] md:pb-[48px]">
             <img src={titleIcon} alt="icon" />
-            <h1 className="text-[#FFFFFF] text-[48px] font-semibold leading-[72px] absolute mt-[88px] mb-[118px] ">
+            <h1 className="text-[#FFFFFF] font-semibold mb-3 md:mb-4  pt-[15px] leading-[48px] text-[32px]  lg:text-[48px] md:text-[40px] ">
               Explore
             </h1>
+            <img
+              src={contactBread}
+              className="sm:h-[23px] sm:w-[131px]"
+              alt=""
+            />
           </div>
         </div>
 
         <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[32px] md-pt-[48px] pb-[40px] md-pb-[64px] font-poppins">
           {/* Selector Button */}
-          <div className="flex justify-between mx-[16px] md:mx-[0] my-[24px] lg:my-[40px] md:my-[32px] ">
-            <div className="flex-none md:flex gap-x-0 md:gap-x-[16px] ">
+          <div className="flex justify-between  my-[24px] lg:my-[40px] md:my-[32px] ">
+            <div className=" md:flex  md:md:gap-x-[16px] ">
               <div>
-                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center ">
+                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] w-[204px] h-[48px]  text-[#FFFFFF] flex items-center justify-center ">
                   All categories
                   <img className="ml-[12px]" src={selector} alt="selector" />
                 </button>
               </div>
-              <div className="mt-[16px] md:mt-[0] mb-[24px] md:mb-[0]">
-                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+              <div className="mt-[16px] flex justify-center  md:mt-[0] mb-[24px] md:mb-[0]">
+                <button className="text-[14px] md:text-[16px]  w-[163px] h-[48px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] md:py-[12px] md:px[32px] text-[#FFFFFF] flex items-center justify-center">
                   All items
+                  <img className="ml-[12px]" src={selector} alt="selector" />
+                </button>
+                <button className=" block md:hidden  w-[163px] h-[48px] ml-2  md:mt-0 text-[14px] md:text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+                  Sort by
                   <img className="ml-[12px]" src={selector} alt="selector" />
                 </button>
               </div>
             </div>
 
-            <div>
-              <button className=" mt-[55px] md:mt-0 text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+            <div className="md:block hidden">
+              <button className="  w-[163px] h-[48px] mt-[65px]  md:mt-0 text-[14px] md:text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] md:py-[12px] md:px-[32px] text-[#FFFFFF] flex items-center justify-center">
                 Sort by
                 <img className="ml-[12px]" src={selector} alt="selector" />
               </button>

@@ -32,7 +32,7 @@ const TodayPicks = () => {
                   All items
                   <img className="ml-[12px]" src={selector} alt="selector" />
                 </button>
-                <button className=" block md:hidden  w-[163px] h-[48px] ml-2  md:mt-0 text-[14px] md:text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] md:py-[12px] md:px-[32px] text-[#FFFFFF] ">
+                <button className=" block md:hidden  w-[163px] h-[48px] ml-2  md:mt-0 text-[14px] md:text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
                   Sort by
                   <img className="ml-[12px]" src={selector} alt="selector" />
                 </button>

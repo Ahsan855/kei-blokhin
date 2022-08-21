@@ -1,20 +1,20 @@
-import React, { Fragment } from 'react';
-import { AuthorTopSellersData } from '../../../../data/data';
-import checkMark from '../../../../Assets/Icons/checkMarkIcon.png';
-import leftRightIcon from '../../../../Assets/Icons/left-right-icon.png';
+import React, { Fragment } from "react";
+import { AuthorTopSellersData } from "../../../../data/data";
+import checkMark from "../../../../Assets/Icons/checkMarkIcon.png";
+import leftRightIcon from "../../../../Assets/Icons/left-right-icon.png";
 
 const AuthorTopSeller = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] w-full overflow-x-hidden">
         <div className="max-w-[1200px] lg:mx-auto md:mx-[32px] pt-[80px] pb-[51px] font-poppins">
-          <div className="">
-            <h1 className="text-[#FFFFFF] text-[36px] font-semibold ">
+          <div className="pl-[16px] md:pl-0">
+            <h1 className="text-[#FFFFFF] text-[24px] md:text-[36px] font-semibold ">
               Top Sellers
             </h1>
 
-            <p className="text-[20px] text-[#FFFFFF]  font-normal mt-[24px] ">
-              Discover Collections, get Equipment, or find <br /> assets to build your
+            <p className=" text-[15px] md:text-[20px] w-[284px] md:w-[476px] text-[#FFFFFF]  font-normal mt-[24px] ">
+              Discover Collections, get Equipment, or find assets to build your
               own unique Experiences.
             </p>
           </div>
