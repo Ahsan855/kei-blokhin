@@ -7,7 +7,7 @@ import close from "../../../Assets/Icons/Close.png";
 const Header = () => {
   let [open, setOpen] = useState(false);
   return (
-    <header className="bg-[#000000] header   border-b-[#51505B] border-b-[2px] overflow-x-hidden">
+    <header className="bg-[#000000] header font-poppins   border-b-[#51505B] border-b-[2px] overflow-x-hidden">
       <div>
         <div className="relative z-20 custom-shadow max-w-[1300px] mx-auto">
           <div className="px-0 lg:container lg:mx-auto lg:px-6 lg:py-4">

@@ -6,9 +6,12 @@ import { PopularCollectionsData } from "../../../data/data";
 const PopularCollections = () => {
   return (
     <Fragment>
-      <section className="bg-[#1E2329] w-full overflow-x-hidden">
-        <div className="max-w-[1200px] mx-[16px] md:mx-[32px] lg:mx-auto py-[48px] pt-[0] md:pt-[72px] pb-0 md:pb-[80px] font-poppins">
+
+      <section className="bg-[#1E2329] Popular-Collections font-poppins w-full overflow-x-hidden">
+        <div className="max-w-[1200px] h-[435px] mx-[16px] md:mx-[32px] lg:mx-auto py-[48px] pt-[0] md:pt-[72px] pb-0 md:pb-[80 px] font-poppins">
+
           {/* Title Style */}
+
           <div className="flex justify-between">
             <div>
               <img src={titleIcon} alt="icon" />
@@ -16,7 +19,7 @@ const PopularCollections = () => {
                 Popular Collections
               </h1>
             </div>
-            <button className="py-[12px] px-[32px] text-white rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
+            <button className="py-[12px] px-[32px] popular-collection-btn text-white rounded-[300px] box-border border-2 border-[#F6D62E] text-[16px] font-semibold leading-[24px]">
               Explore More
             </button>
           </div>
