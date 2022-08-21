@@ -50,6 +50,18 @@ import seller2 from "../Assets/Images/TopSellers/seller2.png";
 import seller3 from "../Assets/Images/TopSellers/seller3.png";
 import seller4 from "../Assets/Images/TopSellers/seller4.png";
 
+
+// Explore Image Import
+import explore1 from "../Assets/Images/Explore/Explore1.png";
+import explore2 from "../Assets/Images/Explore/Explore2.png";
+import explore3 from "../Assets/Images/Explore/Explore3.png";
+import explore4 from "../Assets/Images/Explore/Explore4.png";
+import explore5 from "../Assets/Images/Explore/Explore5.png";
+import explore6 from "../Assets/Images/Explore/Explore6.png";
+import explore7 from "../Assets/Images/Explore/Explore7.png";
+import explore8 from "../Assets/Images/Explore/Explore8.png";
+
+
 // SellYourNFT Data
 export const SellYourNFTdata = [
   {
@@ -210,7 +222,7 @@ export const PopularCollectionsData = [
   },
 ];
 
-// TodayPick Data
+// TodayPicks Data
 export const TodayPicksData = [
   {
     id: 1,
@@ -379,5 +391,77 @@ export const LiveAuctionsData = [
     title: "Rocket #45456",
     name: "Andy Hermawan",
     like: 220,
+  },
+];
+
+// Explore Data
+export const ExploreData = [
+  {
+    id: 1,
+    img: explore1,
+    title: "Rocket #45456", 
+  },
+  {
+    id: 2,
+    img: explore2,
+    title: "Snapchat #12678", 
+  },
+  {
+    id: 3,
+    img: explore3,
+    title: "White #09823", 
+  },
+  {
+    id: 4,
+    img: explore4,
+    title: "Squid #25578", 
+  },
+  {
+    id: 5,
+    img: explore5,
+    title: "Tesla #89231", 
+  },
+  {
+    id: 6,
+    img: explore6,
+    title: "Snapchat #12678 ", 
+  },
+  {
+    id: 7,
+    img: explore7,
+    title: "White w... #09823", 
+  },
+  {
+    id: 8,
+    img: explore8,
+    title: "Squid #25578", 
+  },
+];
+
+// Author Top Seller Data
+export const AuthorTopSellersData = [
+  {
+    id: 1,
+    seller: seller1,
+    name: "Andy Hermawan",
+    sold: 345,
+  },
+  {
+    id: 2,
+    seller: seller2,
+    name: "Alexander Shat...",
+    sold: 202,
+  },
+  {
+    id: 3,
+    seller: seller3,
+    name: "Aldi Sigun",
+    sold: 157,
+  },
+  {
+    id: 4,
+    seller: seller4,
+    name: "Milad Fakurian",
+    sold: 157,
   },
 ];
