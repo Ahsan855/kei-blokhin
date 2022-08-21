@@ -1,10 +1,25 @@
 import React from "react";
+import titleIcon from "../../../Assets/Icons/titleIcon.png";
 import contactPhoto from "../../../Assets/Images/Contact.png";
+import contactBread from "../../../Assets/Images/_breadcrumbs.png";
 
 const Contact = () => {
   return (
     <div>
       <section className="bg-[#1D2229] body-font relative">
+        <div className="bg-bgImage bg-no-repeat bg-center bg-cover">
+          <div className="lg:w-[1200px] mx-auto md:pt-[78px] pt-4 pb-4 pl-4 md:pl-[32px] md:pb-[48px]">
+            <img src={titleIcon} alt="icon" />
+            <h1 className="text-[#FFFFFF] font-semibold mb-3 md:mb-4  leading-[48px] text-[32px]  lg:text-[48px] md:text-[40px] ">
+              Contact
+            </h1>
+            <img
+              src={contactBread}
+              className="sm:h-[23px] sm:w-[131px]"
+              alt=""
+            />
+          </div>
+        </div>
         <div className="container px-5 py-24 mx-auto flex flex-col lg:flex-row">
           <div className="lg:w-1/3 w-full bg-[#1D2229] flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0">
             <h2 className="text-white text-4xl mb-6 font-medium title-font">
