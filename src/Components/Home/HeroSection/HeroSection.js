@@ -1,14 +1,14 @@
 import React from "react";
-
+import bgIcon from "../../../Assets/Icons/bg-icons.png";
 import hero_img from "../../../Assets/Images/hero_img.png";
 
 const HeroSection = () => {
   return (
-    <section className=" hero bg-[#0e0d0d] h-auto pb-[39px] pt-[16px] md:pt-[30px] lg:pt-[10px] w-full overflow-x-hidden ">
-      <div className=" mx-auto flex justify-center items-center  hero-bg">
+    <section className=" hero relative bg-[#0e0d0d] h-auto pb-[39px] pt-[16px] md:pt-[30px] lg:pt-[10px] w-full overflow-x-hidden ">
+      <div className=" mx-auto ml[16px] md:ml-0 flex md:justify-center md:items-center  hero-bg">
         <div className="grid  md:ml-[16px] md:grid-cols-2 justify-between md:gap-x-[20px] lg:gap-x-[200px]">
-          <div className="  md:ml-0 lg:ml-[170px] font-poppins md:pt-[40px] lg:pt-10">
-            <h2 className="font-semibold text-[#FFFFFF] text-[32px] md:text-[40px]  lg:text-[48px]">
+          <div className=" ml-[16px] md:ml-0 lg:ml-[170px] font-poppins md:pt-[40px] lg:pt-10">
+            <h2 className="font-semibold mt-[23px] md:mt-0 text-[#FFFFFF] text-[32px] md:text-[40px]  lg:text-[48px]">
               Welcome to the{" "}
             </h2>
             <h2 className="font-semibold text-[#FFFFFF] text-[32px] md:text-[40px] lg:text-[48px]">
@@ -42,6 +42,10 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <span className=" block md:hidden ">
+        <span className="icons-bg1"></span>
+        <span className="icons-bg2"></span>
+      </span>
     </section>
   );
 };

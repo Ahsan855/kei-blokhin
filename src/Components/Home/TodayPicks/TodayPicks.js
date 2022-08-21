@@ -19,24 +19,28 @@ const TodayPicks = () => {
           </div>
 
           {/* Selector Button */}
-          <div className="flex justify-between mx-[16px] md:mx-[0] my-[24px] lg:my-[40px] md:my-[32px] ">
-            <div className="flex-none md:flex gap-x-0 md:gap-x-[16px] ">
+          <div className="flex justify-between  my-[24px] lg:my-[40px] md:my-[32px] ">
+            <div className=" md:flex  md:md:gap-x-[16px] ">
               <div>
-                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center ">
+                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] w-[204px] h-[48px]  text-[#FFFFFF] flex items-center justify-center ">
                   All categories
                   <img className="ml-[12px]" src={selector} alt="selector" />
                 </button>
               </div>
-              <div className="mt-[16px] md:mt-[0] mb-[24px] md:mb-[0]">
-                <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+              <div className="mt-[16px] flex justify-center  md:mt-[0] mb-[24px] md:mb-[0]">
+                <button className="text-[14px] md:text-[16px]  w-[163px] h-[48px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] md:py-[12px] md:px[32px] text-[#FFFFFF] flex items-center justify-center">
                   All items
+                  <img className="ml-[12px]" src={selector} alt="selector" />
+                </button>
+                <button className=" block md:hidden  w-[163px] h-[48px] ml-2  md:mt-0 text-[14px] md:text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] md:py-[12px] md:px-[32px] text-[#FFFFFF] ">
+                  Sort by
                   <img className="ml-[12px]" src={selector} alt="selector" />
                 </button>
               </div>
             </div>
 
-            <div>
-              <button className=" mt-[55px] md:mt-0 text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] py-[12px] px-[32px] text-[#FFFFFF] flex items-center justify-center">
+            <div className="md:block hidden">
+              <button className="  w-[163px] h-[48px] mt-[65px]  md:mt-0 text-[14px] md:text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] md:py-[12px] md:px-[32px] text-[#FFFFFF] flex items-center justify-center">
                 Sort by
                 <img className="ml-[12px]" src={selector} alt="selector" />
               </button>
