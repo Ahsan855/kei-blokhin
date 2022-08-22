@@ -5,10 +5,10 @@ import contactBread from "../../../Assets/Images/_breadcrumbs.png";
 
 const Contact = () => {
   return (
-    <div>
-      <section className="bg-[#1D2229] font-poppins relative">
+    <section className="bg-[#1D2229]">
+      <div className="font-poppins relative">
         <div className="bg-bgImage bg-no-repeat bg-center bg-cover">
-          <div className="lg:w-[1200px] mx-auto md:pt-[78px] pt-4 pb-4 pl-4 md:pl-[32px] md:pb-[48px]">
+          <div className="lg:w-[1200px] lg:container lg:mx-auto mx-auto md:pt-[78px] pt-4 pb-4 pl-4 md:pl-[32px] md:pb-[48px]">
             <img src={titleIcon} alt="icon" />
             <h1 className="text-[#FFFFFF] font-semibold mb-3 md:mb-4  pt-[15px] leading-[48px] text-[32px]  lg:text-[48px] md:text-[40px] ">
               Contact
@@ -20,9 +20,9 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="lg:w-[1200px] mx-auto">
-          <div className="pl-[32px]  pt-24 mx-auto flex lg:justify-between items-center flex-col lg:flex-row">
-            <div className="lg:w-1/3 w-full bg-[#1D2229] flex flex-col  md:py-8 mt-8 md:mt-0">
+        <div className="max-w-[1200px]  mx-auto">
+          <div className="grid sm:grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2 px-5 md:px-12 pt-24 pb-12">
+            <div className="bg-[#1D2229]md:py-8 mt-8 md:mt-0">
               <h2 className="text-white text-4xl mb-6 font-medium title-font">
                 Drop Up A Message
               </h2>
@@ -72,13 +72,13 @@ const Contact = () => {
                 Send Message
               </button>
             </div>
-            <div className="lg:w-1/2 w-full bg-[#1D2229] flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0">
-              <img src={contactPhoto} alt="" />
+            <div className="bg-[#1D2229] mt-8">
+              <img className="img-fluid" src={contactPhoto} alt="" />
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
