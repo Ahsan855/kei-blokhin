@@ -24,7 +24,7 @@ const OurCreator = () => {
           </div>
 
           {/*Single Card Style */}
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[48px] gap-[24px] md:mt-[40px]  ">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mx-[16px] md:mx-[32px]  lg:mt-[56px] mt-[48px] gap-[24px] md:mt-[40px]  ">
             {OurCreatorData.map((data) => (
               <div
                 className=" border-[#3E3E46] border-2 rounded-[15px] p-[16px] "
