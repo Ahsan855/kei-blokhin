@@ -21,23 +21,25 @@ const AuthorTopSeller = () => {
 
           {/* Author Top Seller Style */}
 
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[48px] gap-[24px] md:mt-[40px] mb-[51px] ">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mx-[16px] md:mx-[32px]  lg:mt-[56px] mt-[48px] gap-[24px] md:mt-[40px] mb-[51px] ">
             {AuthorTopSellersData.map((data) => (
               <div
                 className=" border-[#3E3E46] border-2 rounded-[15px] "
                 key={data.id}
               >
                 <div>
-                  <div className="px-[93px] py-[16px] ">
+                  <div className=" flex justify-center items-center py-[16px] ">
                     <div>
-                      <img src={checkMark} className="ml-20" alt="" />
-                    </div>
-                    <div>
-                      <img
-                        className="mt-[-15px] w-[96px] h-[96px] "
-                        src={data.seller}
-                        alt=""
-                      />
+                      <div>
+                        <img src={checkMark} className="ml-20" alt="" />
+                      </div>
+                      <div>
+                        <img
+                          className="mt-[-15px] w-[96px] h-[96px] "
+                          src={data.seller}
+                          alt=""
+                        />
+                      </div>
                     </div>
                   </div>
 
