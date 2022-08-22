@@ -9,7 +9,7 @@ const TodayPicks = () => {
   return (
     <Fragment>
       <section className="today-picks w-full font-poppins overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[50px] md-pt-[90px] pb-[48px] md-pb-[72px] font-poppins">
+        <div className="max-w-[1180px] xxl:max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[50px] md-pt-[90px] pb-[48px] md-pb-[72px] font-poppins">
           {/* Title Style */}
           <div className=" md:mt-[40] lg:mt-[80px] ">
             <img src={titleIcon} alt="icon" />

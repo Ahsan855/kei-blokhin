@@ -9,7 +9,7 @@ const LiveAuctions = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] font-poppins w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] py-[80px] font-poppins">
+        <div className="max-w-[1180px] xxl:max-w-[1200px] mx-auto   py-[80px] font-poppins">
           {/* Title Style */}
           <div>
             <img src={titleIcon} alt="icon" />

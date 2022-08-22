@@ -6,7 +6,7 @@ const SellYourNFT = () => {
   return (
     <Fragment>
       <section className=" Sell-Your-NFT font-poppins  w-full overflow-x-hidden">
-        <div className="max-w-[1200px] lg:mx-auto md:ml-[33px] md:mr-[88px] pt-[74px] pb-[64px] font-poppins">
+        <div className=" max-w-[1180px] xxl:max-w-[1200px] lg:mx-auto md:ml-[33px] md:mr-[88px] pt-[74px] pb-[64px] font-poppins">
           <div className="ml-[16px]">
             <img src={titleIcon} alt="icon" />
             <h1 className="text-[#FFFFFF] w-[416px] font-semibold  mr-32 lg:ml-0 lg:mr-0 md:ml-0 md:mr-0 leading-[48px] text-[24px] md:text-[32px]">

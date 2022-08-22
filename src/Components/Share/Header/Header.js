@@ -86,7 +86,7 @@ const Header = () => {
                       </li>
                     </ul>
 
-                    <div className=" py-[24px] lg:ml-[124px]">
+                    <div className=" py-[24px]  xxl:ml-[124px]">
                       <Link
                         to="contact"
                         className="font-poppins rounded-[300px] py-[12px] px-[24px] font-semibold text-base text-[#FFFFFF] bg-[#3C84F7]"

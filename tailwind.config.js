@@ -7,12 +7,14 @@ module.exports = {
         poppins: "'Poppins', sans-serif",
       },
       screens: {
-        md: "361px",
-
-        lg: "769px",
+        sm: "576px",
+        md: "768px",
+        lg: "992px",
+        xl: "1200px",
+        xxl: "1400px",
       },
       backgroundImage: {
-        "bgImage": "url('/src/Assets/Images/bgImage.png')",
+        bgImage: "url('/src/Assets/Images/bgImage.png')",
       },
     },
   },
