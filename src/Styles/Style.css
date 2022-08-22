@@ -106,7 +106,7 @@
     height: 48px;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 576px) {
   .header form {
     margin: 0 17px;
   }
@@ -158,7 +158,43 @@
   min-height: 622px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+  .hero {
+    position: relative;
+    min-height: 300px;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    min-height: 394px;
+    left: 0px;
+    top: 0px;
+    filter: blur(750px);
+    background: #3c84f7;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    min-height: 394px;
+    right: 0px;
+    top: 0px;
+    background: #f6d62e;
+    filter: blur(750px);
+  }
+
+  .hero-bg {
+    background-image: url(../Assets/Images/bg.png);
+    min-height: 550px;
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
   .hero {
     position: relative;
     min-height: 394px;
@@ -193,7 +229,19 @@
     background-size: 766px;
   }
 }
-
+@media only screen and (max-width: 768px) {
+  .hero {
+    position: relative;
+    min-height: 374px;
+  }
+  .hero-bg {
+    background-image: url(../Assets/Images/bg.png);
+    min-height: 354px;
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-size: 557px;
+  }
+}
 @media only screen and (max-width: 360px) {
   .hero-bg {
     background-image: none;
@@ -234,26 +282,26 @@
   background: #d83429;
   filter: blur(550px);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .Popular-Collections {
-    min-height: 820px;
+    min-height: 880px;
   }
   .Popular-Collections:after {
-    min-height: 820px;
+    min-height: 880px;
   }
   .Popular-Collections::before {
-    min-height: 820px;
+    min-height: 880px;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 576px) {
   .Popular-Collections {
-    min-height: 1430px;
+    min-height: 1420px;
   }
   .Popular-Collections:after {
-    min-height: 1430px;
+    min-height: 1420px;
   }
   .Popular-Collections::before {
-    min-height: 1430px;
+    min-height: 1420px;
   }
 }
 
@@ -306,7 +354,8 @@
 }
 
 /* -----------------------Top SEllers-------------------------- */
-@media only screen and (max-width: 575px) {
+
+@media only screen and (max-width: 576px) {
   .top-sellar-btn {
     position: absolute;
     bottom: 30px;
