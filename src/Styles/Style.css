@@ -354,6 +354,7 @@
 }
 
 /* -----------------------Top SEllers-------------------------- */
+
 @media only screen and (max-width: 576px) {
   .top-sellar-btn {
     position: absolute;
@@ -367,7 +368,7 @@
     bottom: 0px;
     width: 328px;
     height: 48px;
-    left: 16px;
+    left: 20%;
   }
   .popular-collection-btn {
     position: absolute;

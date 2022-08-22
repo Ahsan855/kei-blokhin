@@ -397,12 +397,16 @@ export const ExploreData = [
   {
     id: 1,
     img: explore1,
-    title: "Rocket #45456",
+
+    title: "Rocket #4545",
+
+
   },
   {
     id: 2,
     img: explore2,
-    title: "Snapchat #12678",
+
+    title: "Squid #12678",
   },
   {
     id: 3,
@@ -422,12 +426,15 @@ export const ExploreData = [
   {
     id: 6,
     img: explore6,
-    title: "Snapchat #12678 ",
+    title: "Squid #12678 ",
+
   },
   {
     id: 7,
     img: explore7,
-    title: "White w... #09823",
+
+    title: "White #09823",
+
   },
   {
     id: 8,
