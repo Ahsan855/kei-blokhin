@@ -50,7 +50,6 @@ import seller2 from "../Assets/Images/TopSellers/seller2.png";
 import seller3 from "../Assets/Images/TopSellers/seller3.png";
 import seller4 from "../Assets/Images/TopSellers/seller4.png";
 
-
 // Explore Image Import
 import explore1 from "../Assets/Images/Explore/Explore1.png";
 import explore2 from "../Assets/Images/Explore/Explore2.png";
@@ -60,7 +59,6 @@ import explore5 from "../Assets/Images/Explore/Explore5.png";
 import explore6 from "../Assets/Images/Explore/Explore6.png";
 import explore7 from "../Assets/Images/Explore/Explore7.png";
 import explore8 from "../Assets/Images/Explore/Explore8.png";
-
 
 // SellYourNFT Data
 export const SellYourNFTdata = [
@@ -235,7 +233,7 @@ export const TodayPicksData = [
   {
     id: 2,
     img: todayPicksImage2,
-    title: "Snapchat #12678",
+    title: "Rocket #12678",
     name: "Alexander Shatov",
     like: 378,
     price: 2.12,
@@ -399,42 +397,42 @@ export const ExploreData = [
   {
     id: 1,
     img: explore1,
-    title: "Rocket #45456", 
+    title: "Rocket #45456",
   },
   {
     id: 2,
     img: explore2,
-    title: "Snapchat #12678", 
+    title: "Snapchat #12678",
   },
   {
     id: 3,
     img: explore3,
-    title: "White #09823", 
+    title: "White #09823",
   },
   {
     id: 4,
     img: explore4,
-    title: "Squid #25578", 
+    title: "Squid #25578",
   },
   {
     id: 5,
     img: explore5,
-    title: "Tesla #89231", 
+    title: "Tesla #89231",
   },
   {
     id: 6,
     img: explore6,
-    title: "Snapchat #12678 ", 
+    title: "Snapchat #12678 ",
   },
   {
     id: 7,
     img: explore7,
-    title: "White w... #09823", 
+    title: "White w... #09823",
   },
   {
     id: 8,
     img: explore8,
-    title: "Squid #25578", 
+    title: "Squid #25578",
   },
 ];
 

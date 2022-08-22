@@ -9,7 +9,7 @@ const TodayPicks = () => {
   return (
     <Fragment>
       <section className="today-picks w-full font-poppins overflow-x-hidden">
-        <div className="max-w-[1180px] xxl:max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[50px] md-pt-[90px] pb-[48px] md-pb-[72px] font-poppins">
+        <div className=" max-w-[988px] xl:max-w-[1180px] xxl:max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[50px] md-pt-[90px] pb-[48px] md-pb-[72px] font-poppins">
           {/* Title Style */}
           <div className=" md:mt-[40] lg:mt-[80px] ">
             <img src={titleIcon} alt="icon" />
@@ -48,10 +48,10 @@ const TodayPicks = () => {
           </div>
 
           {/* TodayPicks Card Style */}
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 gap-[24px]">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 gap-[24px]">
             {TodayPicksData.map((data) => (
               <div
-                className="border-2 rounded-[15px] border-[#3E3E46] p-[16px]"
+                className="border-2 w-[328px] sm:w-full rounded-[15px] border-[#3E3E46] p-[16px]"
                 key={data.id}
               >
                 <div className="">
@@ -99,7 +99,7 @@ const TodayPicks = () => {
                       </h5>
                     </div>
 
-                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 mt-[14px] py-[8px] px-[24px] text-[#FFFFFF] leading-[21px] text-[14px]">
+                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 mt-[14px] py-[8px] px-[24px] text-[#FFFFFF] leading-[21px] text-[12px] xl:text-[14px]">
                       Place Bid
                     </button>
                   </div>

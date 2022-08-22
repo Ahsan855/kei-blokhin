@@ -10,8 +10,8 @@ const Header = () => {
     <header className="bg-[#000000] header font-poppins   border-b-[#51505B] border-b-[2px] overflow-x-hidden">
       <div>
         <div className="relative z-20 custom-shadow max-w-[1300px] mx-auto">
-          <div className="px-0 lg:container lg:mx-auto lg:px-6 lg:py-4">
-            <div className="flex  relative z-20 items-center justify-end lg:justify-center  ">
+          <div className="px-0  xl:container  xl:mx-auto  xl:px-6  xl:py-4">
+            <div className="flex  relative z-20 items-center justify-end  xl:justify-center  ">
               <div className="relative z-20 flex items-center ">
                 <Link to="/">
                   <img
@@ -29,7 +29,7 @@ const Header = () => {
                 </form>
               </div>
 
-              <div className="flex items-center lg:justify-end ">
+              <div className="flex items-center  xl:justify-end ">
                 <input
                   type="checkbox"
                   name="hamburger"
@@ -40,26 +40,26 @@ const Header = () => {
                 <label
                   onClick={() => setOpen(!open)}
                   htmlFor="hamburger"
-                  className="peer-checked:hamburger block absolute left-0 z-30 md:p-6 cursor-pointer lg:hidden"
+                  className="peer-checked:hamburger block absolute left-0 z-30 md:p-6 cursor-pointer  xl:hidden"
                 >
                   {open ? (
                     <img
-                      className="lg:mt-[26px] w-[15px] h-[15px] ml-[20px]  lg:ml-0  lg:mb-[36px]"
+                      className=" xl:mt-[26px] w-[15px] h-[15px] ml-[20px]   xl:ml-0   xl:mb-[36px]"
                       src={close}
                       alt=""
                     />
                   ) : (
                     <img
-                      className="lg:mt-[26px] w-[24px] h-[19px] ml-[20px]  lg:ml-0  lg:mb-[36px]"
+                      className=" xl:mt-[26px] w-[24px] h-[19px] ml-[20px]   xl:ml-0   xl:mb-[36px]"
                       src={hamburger}
                       alt=""
                     />
                   )}
                 </label>
 
-                <div className="peer-checked:translate-x-0 fixed inset-0 w-[300px]  translate-x-[-100%]  shadow-lg transition duration-500  lg:w-auto lg:static lg:shadow-none lg:translate-x-0 z-[-1000] lg:z-0">
-                  <div className="flex flex-col h-full justify-between pl-[24px] lg:pl-0 lg:items-center  bg-[#15181D] border-r-[2px] border-r-[#51505B] lg:border-0 lg:bg-transparent   lg:flex-row">
-                    <ul className="px-6 pt-32 text-gray-700 space-y-8   md:px-6 lg:space-y-0 lg:flex xl:space-x-12 lg:pt-0 ">
+                <div className="peer-checked:translate-x-0 fixed inset-0 w-[300px]  translate-x-[-100%]  shadow-lg transition duration-500   xl:w-auto  xl:static  xl:shadow-none  xl:translate-x-0 z-[-1000]  xl:z-0">
+                  <div className="flex flex-col h-full justify-between pl-[24px]  xl:pl-0  xl:items-center  bg-[#15181D] border-r-[2px] border-r-[#51505B]  xl:border-0  xl:bg-transparent    xl:flex-row">
+                    <ul className="px-6 pt-32 text-gray-700 space-y-8   md:px-6  xl:space-y-0  xl:flex xl:space-x-12  xl:pt-0 ">
                       <li>
                         <Link
                           to="contact"

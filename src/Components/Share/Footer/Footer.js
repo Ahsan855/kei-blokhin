@@ -6,10 +6,10 @@ import logo from "../../../Assets/Icons/F_logo.png";
 const Footer = () => {
   return (
     <footer className="text-white font-poppins footer overflow-x-hidden bg-[#1C2025]  body-font">
-      <div className="xl:max-w-[1180px] xxl:max-w-[1200px] md:max-w-[704px]  max-w-[328px] mx-auto">
-        <div className="lg:px-5 pt-[54px] flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className=" flex lg:flex-row flex-col text-center">
-            <div className="md:mr-56 sm:mr-20">
+      <div className="xl:max-w-[1180px] xxl:max-w-[1200px] sm:max-w-[576px] md:max-w-[704px]  max-w-[328px] mx-auto">
+        <div className="lg:px-5 pt-[54px] flex sm:items-center lg:items-start sm:flex-row sm:flex-nowrap flex-wrap flex-col">
+          <div className=" flex xl:flex-row flex-col text-center">
+            <div className=" sm:mr-20">
               <h2 className=" text-left font-normal mb-[22px]">
                 <img src={logo} alt="" />
               </h2>
@@ -18,7 +18,7 @@ const Footer = () => {
                 build your own unique Experiences.
               </p>
             </div>
-            <div className="flex md:flex-row flex-col mt-[32px] lg:mt-0">
+            <div className="flex sm:flex-row flex-col mt-[32px] xl:mt-0">
               {" "}
               <div>
                 <h3 className=" font-poppins font-medium text-white text-left tracking-widest text-xl mb-3">
@@ -42,7 +42,7 @@ const Footer = () => {
                   </li>
                 </nav>
               </div>
-              <div className="md:ml-40 pb-[24px]">
+              <div className="sm:ml-40 pb-[24px]">
                 <h3 className="text-xl text-left font-poppins">Subscribe Us</h3>
                 <div className="relative mt-[33px] text-left">
                   <input
@@ -53,7 +53,7 @@ const Footer = () => {
                   <img
                     src={peparIcon}
                     alt=""
-                    className="btn btn-primary absolute w-[24px] h-[24px] top-[10px] right-[60px] md:right-[10px] rounded-l-none"
+                    className="btn btn-primary absolute w-[24px] h-[24px] top-[10px] right-[60px] sm:right-[10px] rounded-l-none"
                   ></img>
                 </div>
               </div>

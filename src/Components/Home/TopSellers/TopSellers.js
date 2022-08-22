@@ -6,7 +6,7 @@ import { TopSellersData } from "../../../data/data";
 const TopSellers = () => {
   return (
     <section className="bg-[#1E2329] w-full font-poppins overflow-x-hidden">
-      <div className="max-w-[1180px] xxl:max-w-[1200px] relative lg:mx-auto md:mx-[32px] pb-[51px] mt-[32px] font-poppins">
+      <div className=" max-w-[980px] xl:max-w-[1180px] xxl:max-w-[1200px] relative lg:mx-auto md:mx-[32px] pb-[51px] mt-[32px] font-poppins">
         <div className="flex justify-between">
           <div className="ml-4  md:ml-0 ">
             <img src={titleIcon} alt="icon" />
@@ -19,7 +19,7 @@ const TopSellers = () => {
           </button>
         </div>
 
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[48px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[24px]  md:gap-y-[24px] mb-[51px] ">
+        <div className="grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 mx-[16px] lg:mx-0 md:mx-0 lg:mt-[56px] mt-[48px] gap-y-[24px] md:mt-[40px] lg:gap-x-[21px] md:gap-x-[24px]  md:gap-y-[24px] mb-[51px] ">
           {TopSellersData.map((data) => (
             <div
               className=" border-[#3E3E46] border-2 rounded-[15px] p-[16px] "

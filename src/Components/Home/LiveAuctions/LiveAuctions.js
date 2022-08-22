@@ -9,19 +9,19 @@ const LiveAuctions = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] font-poppins w-full overflow-x-hidden">
-        <div className="max-w-[1180px] xxl:max-w-[1200px] mx-auto   py-[80px] font-poppins">
+        <div className="max-w-[980px] xl:max-w-[1180px] xxl:max-w-[1200px] mx-auto   py-[80px] font-poppins">
           {/* Title Style */}
-          <div>
+          <div className="lg:ml-0 ml-[32px]">
             <img src={titleIcon} alt="icon" />
-            <h1 className="text-[#FFFFFF] font-semibold  leading-[48px]  text-[24px] md:text-[32px]">
+            <h1 className="text-[#FFFFFF] font-semibold   leading-[48px]  text-[24px] md:text-[32px]">
               Live Auctions
             </h1>
           </div>
 
           {/* TodayPicks Card Style */}
-          <div className=" today-picks-box p-[2px] mx-[16px] lg:mx-0 md:mx-0  mt-[48px]">
+          <div className=" today-picks-box  p-[2px] mx-[16px] lg:mx-0 md:mx-[32px]  mt-[48px]">
             <div className="md:block hidden">
-              <div className="grid lg:grid-cols-4  rounded-[15px] today-picks-card md:grid-cols-2 p-[24px]  gap-[24px]   ">
+              <div className="grid lg:grid-cols-4  rounded-[15px] today-picks-card md:grid-cols-3 p-[24px]  gap-[24px]   ">
                 {LiveAuctionsData.map((data) => (
                   <div className="" key={data.id}>
                     <div className="flex items-center">
@@ -79,8 +79,8 @@ const LiveAuctions = () => {
               </div>
             </div>
             <div className="block md:hidden">
-              <div className="grid lg:grid-cols-4  rounded-[15px] today-picks-card md:grid-cols-2 p-[22px]  gap-x-[32px]   ">
-                {LiveAuctionsData.slice(0, 1).map((data) => (
+              <div className="grid   rounded-[15px] today-picks-card sm:grid-cols-2 p-[22px]  gap-x-[32px]   ">
+                {LiveAuctionsData.slice(0, 2).map((data) => (
                   <div className="" key={data.id}>
                     <div className="flex items-center">
                       <p className=" text-[#FFFFFF] text-[15px] font-medium leading-[22.5px] ">

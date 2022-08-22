@@ -7,7 +7,7 @@ const PopularCollections = () => {
   return (
     <Fragment>
       <section className="bg-[#1E2329] Popular-Collections font-poppins w-full overflow-x-hidden">
-        <div className="max-w-[1180px] xxl:max-w-[1200px] h-[435px] mx-[16px] md:mx-[32px] lg:mx-auto py-[48px] pt-[0] md:pt-[72px] pb-0 md:pb-[80 px] font-poppins">
+        <div className=" max-w-[980px] xl:max-w-[1180px] xxl:max-w-[1200px] h-[435px] mx-[16px] md:mx-[32px] lg:mx-auto py-[48px] pt-[0] md:pt-[72px] pb-0 md:pb-[80 px] font-poppins">
           {/* Title Style */}
 
           <div className="flex justify-between">
@@ -23,10 +23,10 @@ const PopularCollections = () => {
           </div>
 
           {/*Single Card Style */}
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 mt-[24px] lg:mt-[65px] md:mt-[40px] gap-[16px] md:gap-[24px] ">
+          <div className="grid lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 mt-[24px] lg:mt-[65px] md:mt-[40px] gap-[16px] md:gap-[24px] ">
             {PopularCollectionsData.map((data) => (
               <div
-                className={`popularCollection-box ${
+                className={`w-[328px] sm:w-full md:w-[340px] lg:w-full popularCollection-box ${
                   data.id === 1
                     ? "popularCollection-box1"
                     : data.id === 2
