@@ -4,7 +4,7 @@ import { ExploreData } from "../../../data/data";
 import checkMark from "../../../Assets/Icons/checkMarkIcon.png";
 import heart from "../../../Assets/Icons/heartIcon.png";
 import selector from "../../../Assets/Icons/selector.png";
-import contactIcon from "../../../Assets/Icons/arrow-circle-left.png";
+import contactIcon from "../../../Assets/Icons/Icon.png";
 import { Link } from "react-router-dom";
 
 const Explore = () => {
