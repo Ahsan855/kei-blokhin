@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import titleIcon from "../../../../Assets/Icons/titleIcon.png";
-import contactIcon from "../../../../Assets/Icons/arrow-circle-right.png";
+import contactIcon from "../../../../Assets/Icons/Icon.png";
 
 import { Link } from "react-router-dom";
 
