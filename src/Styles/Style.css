@@ -147,7 +147,7 @@
   right: 0px;
   top: 0px;
   background: #f6d62e;
-  filter: blur(550px);
+  filter: blur(750px);
 }
 .hero-bg {
   background-image: url(../Assets/Images/hero_bg.png);
@@ -218,7 +218,7 @@
     right: 0px;
     top: 0px;
     background: #f6d62e;
-    filter: blur(550px);
+    filter: blur(750px);
   }
 
   .hero-bg {
@@ -242,7 +242,7 @@
     background-size: 557px;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 576px) {
   .hero-bg {
     background-image: none;
   }

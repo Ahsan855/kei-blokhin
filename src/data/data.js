@@ -204,11 +204,11 @@ export const PopularCollectionsData = [
       },
       {
         img: collection22,
-        id: 22,
+        id: 4,
       },
       {
         img: collection23,
-        id: 4,
+        id: 23,
       },
       {
         img: collection24,
