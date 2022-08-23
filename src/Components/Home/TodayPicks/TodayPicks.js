@@ -20,7 +20,7 @@ const TodayPicks = () => {
 
           {/* Selector Button */}
           <div className="flex justify-between  my-[24px] lg:my-[40px] md:my-[32px] ">
-            <div className=" md:flex  md:md:gap-x-[16px] ">
+            <div className=" md:flex  md:gap-x-[16px] ">
               <div>
                 <button className="text-[16px] leading-[24px] font-semibold border-2 box-border rounded-[300px] border-[#3E3E46] w-[204px] h-[48px]  text-[#FFFFFF] flex items-center justify-center ">
                   All categories
@@ -51,57 +51,59 @@ const TodayPicks = () => {
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 sm:mx-[16px] lg:mx-0 md:mx-0 gap-[24px]">
             {TodayPicksData.map((data) => (
               <div
-                className="border-2 mx-auto w-[328px] sm:w-full rounded-[15px] border-[#3E3E46] p-[16px]"
+                className="border-2 mx-auto w-[328px] sm:w-full rounded-[15px] flex justify-center items-center border-[#3E3E46] p-[16px]"
                 key={data.id}
               >
-                <div className="">
-                  <img src={data.img} alt="icon" />
-                </div>
-
-                <div className="flex justify-between items-center ">
-                  <div>
-                    <h4 className="mt-[18px] text-[#FFFFFF] text-[24px] leading-[36px] font-semibold">
-                      {data.title}
-                    </h4>
-                  </div>
-                  <div className="flex justify-center items-center mt-[21px]">
-                    <img src={heart} alt="" />{" "}
-                    <h5 className="text-[#FFFFFF] text-[20px] leading-[30px] font-normal ml-[8px] ">
-                      {data.like}
-                    </h5>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
-                  <p className=" text-[#FFFFFF] text-[15px] font-medium leading-[22.5px]">
-                    By
-                    <span className=" ml-[7px]">{data.name}</span>
-                  </p>
-                  <img
-                    className="w-[19.54px] h-[19.35px] ml-[10px]"
-                    src={checkMark}
-                    alt="checkMark"
-                  />
-                </div>
-
                 <div>
-                  <p className="text-[#BCBCBC] text-[12px] leading-[18px] font-normal mt-[16px] ">
-                    Current Bid
-                  </p>
+                  <div className="">
+                    <img src={data.img} alt="icon" />
+                  </div>
 
-                  <div className="flex justify-between ">
-                    <div className=" flex-none lg:flex md:flex-none items-center">
-                      <h3 className="text-[24px] text-[#FFFFFF] leading-[36px] font-semibold  ">
-                        {data.price} ETH{" "}
-                      </h3>
-                      <h5 className="text-[#BCBCBC] text-[15px] inline-block font-normal leading-[22.5px] ml-[4px] ">
-                        = $12.24
+                  <div className="flex justify-between items-center ">
+                    <div>
+                      <h4 className="mt-[18px] text-[#FFFFFF] text-[24px] leading-[36px] font-semibold">
+                        {data.title}
+                      </h4>
+                    </div>
+                    <div className="flex justify-center items-center mt-[21px]">
+                      <img src={heart} alt="" />{" "}
+                      <h5 className="text-[#FFFFFF] text-[20px] leading-[30px] font-normal ml-[8px] ">
+                        {data.like}
                       </h5>
                     </div>
+                  </div>
 
-                    <button className="border-[#3C84F7] box-border rounded-[300px] border-2 mt-[14px] py-[8px] px-[24px] text-[#FFFFFF] leading-[21px] text-[12px] xl:text-[14px]">
-                      Place Bid
-                    </button>
+                  <div className="flex items-center">
+                    <p className=" text-[#FFFFFF] text-[15px] font-medium leading-[22.5px]">
+                      By
+                      <span className=" ml-[7px]">{data.name}</span>
+                    </p>
+                    <img
+                      className="w-[19.54px] h-[19.35px] ml-[10px]"
+                      src={checkMark}
+                      alt="checkMark"
+                    />
+                  </div>
+
+                  <div>
+                    <p className="text-[#BCBCBC] text-[12px] leading-[18px] font-normal mt-[16px] ">
+                      Current Bid
+                    </p>
+
+                    <div className="flex justify-between ">
+                      <div className=" flex-none lg:flex md:flex-none items-center">
+                        <h3 className="text-[24px] text-[#FFFFFF] leading-[36px] font-semibold  ">
+                          {data.price} ETH{" "}
+                        </h3>
+                        <h5 className="text-[#BCBCBC] text-[15px] inline-block font-normal leading-[22.5px] ml-[4px] ">
+                          = $12.24
+                        </h5>
+                      </div>
+
+                      <button className="border-[#3C84F7] box-border rounded-[300px] border-2 mt-[14px] py-[8px] px-[24px] text-[#FFFFFF] leading-[21px] text-[12px] xl:text-[14px]">
+                        Place Bid
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
