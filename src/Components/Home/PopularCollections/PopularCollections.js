@@ -26,7 +26,7 @@ const PopularCollections = () => {
           <div className="grid lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 mt-[24px] lg:mt-[65px] md:mt-[40px] gap-[16px] md:gap-[24px] ">
             {PopularCollectionsData.map((data) => (
               <div
-                className={`w-[328px] sm:w-full md:w-[340px] lg:w-full popularCollection-box ${
+                className={`w-[328px] sm:w-full md:w-[340px] lg:w-full mx-auto popularCollection-box ${
                   data.id === 1
                     ? "popularCollection-box1"
                     : data.id === 2
