@@ -9,10 +9,10 @@ const Header = () => {
   return (
     <header className="bg-[#000000] header font-poppins   border-b-[#51505B] border-b-[2px] overflow-x-hidden">
       <div>
-        <div className="relative z-20 custom-shadow max-w-[1300px] mx-auto">
+        <div className="relative  custom-shadow max-w-[1300px] mx-auto">
           <div className="px-0  xl:container  xl:mx-auto  xl:px-6  xl:py-4">
             <div className="flex  relative z-20 items-center justify-end  xl:justify-center  ">
-              <div className="relative z-20 flex items-center ">
+              <div className="relative  flex items-center ">
                 <Link to="/">
                   <img
                     src={logo}
@@ -57,7 +57,7 @@ const Header = () => {
                   )}
                 </label>
 
-                <div className="peer-checked:translate-x-0 fixed inset-0 w-[300px]  translate-x-[-100%]  shadow-lg transition duration-500   xl:w-auto  xl:static  xl:shadow-none  xl:translate-x-0 z-[-1000]  xl:z-0">
+                <div className="peer-checked:translate-x-0  fixed inset-0 w-[300px]  translate-x-[-1000%]  shadow-lg transition   xl:w-auto  xl:static  xl:shadow-none  xl:translate-x-0 z-[10]  xl:z-0">
                   <div className="flex flex-col h-full justify-between pl-[24px]  xl:pl-0  xl:items-center  bg-[#15181D] border-r-[2px] border-r-[#51505B]  xl:border-0  xl:bg-transparent    xl:flex-row">
                     <ul className="px-6 pt-32 text-gray-700 space-y-8   md:px-6  xl:space-y-0  xl:flex xl:space-x-12  xl:pt-0 ">
                       <li>
