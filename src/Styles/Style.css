@@ -129,26 +129,6 @@
   min-height: 740px;
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  width: 70%;
-  min-height: 740px;
-  left: 0px;
-  top: 0px;
-  filter: blur(750px);
-  background: #3c84f7;
-}
-.hero::before {
-  content: "";
-  position: absolute;
-  width: 30%;
-  min-height: 740px;
-  right: 0px;
-  top: 0px;
-  background: #f6d62e;
-  filter: blur(750px);
-}
 .hero-bg {
   background-image: url(../Assets/Images/hero_bg.png);
   background-position: center;
@@ -164,27 +144,6 @@
     min-height: 300px;
   }
 
-  .hero::after {
-    content: "";
-    position: absolute;
-    width: 70%;
-    min-height: 394px;
-    left: 0px;
-    top: 0px;
-    filter: blur(750px);
-    background: #3c84f7;
-  }
-  .hero::before {
-    content: "";
-    position: absolute;
-    width: 30%;
-    min-height: 394px;
-    right: 0px;
-    top: 0px;
-    background: #f6d62e;
-    filter: blur(750px);
-  }
-
   .hero-bg {
     background-image: url(../Assets/Images/bg.png);
     min-height: 550px;
@@ -198,27 +157,6 @@
   .hero {
     position: relative;
     min-height: 394px;
-  }
-
-  .hero::after {
-    content: "";
-    position: absolute;
-    width: 70%;
-    min-height: 394px;
-    left: 0px;
-    top: 0px;
-    filter: blur(750px);
-    background: #3c84f7;
-  }
-  .hero::before {
-    content: "";
-    position: absolute;
-    width: 30%;
-    min-height: 394px;
-    right: 0px;
-    top: 0px;
-    background: #f6d62e;
-    filter: blur(750px);
   }
 
   .hero-bg {
