@@ -27,7 +27,7 @@ const OurCreator = () => {
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mx-[16px] md:mx-[32px]  lg:mt-[56px] mt-[48px] gap-[24px] md:mt-[40px]  ">
             {OurCreatorData.map((data) => (
               <div
-                className=" border-[#3E3E46] border-2 rounded-[15px] p-[16px] "
+                className=" border-[#3E3E46] border-2 rounded-[15px] p-[16px] sm:w-full w-[328px] mx-auto "
                 key={data.id}
               >
                 <div className="flex items-center ">
@@ -50,9 +50,11 @@ const OurCreator = () => {
 
                 <div className="grid grid-cols-3 mt-[18px] ">
                   {data.collection.map((img) => (
-                    <img className="w-[96px] h-[96px]" src={img} alt="icon" />
+                    <img className="md:w-[96px] md:h-[96px] sm:w-[118px] sm:h-[118px] w-[113px] h-[113px] " src={img} alt="icon" />
                   ))}
                 </div>
+                
+                
               </div>
             ))}
           </div>
