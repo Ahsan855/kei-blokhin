@@ -33,7 +33,7 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="max-w-[1200px] lg:mx-auto mx-[16px] md:mx-[32px] pt-[32px] md-pt-[48px] pb-[40px] md-pb-[64px] font-poppins">
+        <div className="max-w-[1200px] lg:mx-auto sm:mx-[16px] md:mx-[32px] pt-[32px] md-pt-[48px] pb-[40px] md-pb-[64px] font-poppins">
           {/* Selector Button */}
           <div className="flex justify-between  my-[24px] lg:my-[40px] md:my-[32px] ">
             <div className=" md:flex  md:md:gap-x-[16px] ">
@@ -67,7 +67,7 @@ const Explore = () => {
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mx-[16px] md:mx-[32px] gap-[24px]">
             {ExploreData.map((data) => (
               <div
-                className="border-2 rounded-[15px] border-[#3E3E46] flex justify-center items-center p-[16px]"
+                className="border-2 rounded-[15px] w-[328px] mx-auto sm:w-full border-[#3E3E46] flex justify-center items-center p-[16px]"
                 key={data.id}
               >
                 <div>

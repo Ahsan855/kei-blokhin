@@ -1,29 +1,10 @@
 /* -----------------------Common Style Here---------------------- */
 .Sell-Your-NFT {
   position: relative;
-  background: hsl(213, 15%, 14%);
+  background: #1c2025;
+
   min-height: 441px;
   padding: 20px 0;
-}
-.Sell-Your-NFT::after {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 441px;
-  left: 0px;
-  top: 0px;
-  background: #3c84f7;
-  filter: blur(750px);
-}
-.Sell-Your-NFT::before {
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 441px;
-  right: 0px;
-  top: 0px;
-  background: #d83429;
-  filter: blur(500px);
 }
 
 .today-picks {
@@ -39,7 +20,7 @@
   right: 0px;
   top: 300px;
   background: rgba(49, 214, 184, 1);
-  filter: blur(500px);
+  filter: blur(750px);
 }
 
 /* -----------------------Header Section Style Here---------------------- */
@@ -49,7 +30,7 @@
   width: 90%;
   left: 0px;
   top: 0px;
-  filter: blur(800px);
+  filter: blur(750px);
   background: #3c84f7;
 }
 .header::before {
@@ -200,45 +181,14 @@
   position: relative;
   min-height: 587px;
 }
-.Popular-Collections:after {
-  content: "";
-  position: absolute;
-  width: 85%;
-  min-height: 587px;
-  left: 0px;
-  top: 0px;
-  background: #011027;
-  filter: blur(750px);
-}
-.Popular-Collections::before {
-  content: "";
-  position: absolute;
-  width: 15%;
-  min-height: 587px;
-  right: 0px;
-  top: 0px;
-  background: #d83429;
-  filter: blur(550px);
-}
+
 @media only screen and (max-width: 1200px) {
   .Popular-Collections {
-    min-height: 880px;
-  }
-  .Popular-Collections:after {
-    min-height: 880px;
-  }
-  .Popular-Collections::before {
     min-height: 880px;
   }
 }
 @media only screen and (max-width: 576px) {
   .Popular-Collections {
-    min-height: 1420px;
-  }
-  .Popular-Collections:after {
-    min-height: 1420px;
-  }
-  .Popular-Collections::before {
     min-height: 1420px;
   }
 }
@@ -327,7 +277,6 @@
   left: 1.44%;
   right: 94.94%;
   top: 5px;
-
   background: #f6d62e;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
